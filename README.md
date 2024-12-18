@@ -1,6 +1,6 @@
 # CoinLucks DApp 
 
-Telegram mini app & Web App (responsive)
+Telegram mini app & Web App (responsive ux)
 
 ### CoinLucks > Web3 Fair-to-Win Platform
 
