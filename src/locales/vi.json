@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - Nền tảng Web3 công bằng để chiến thắng",
+    "description": "Hãy thử vận may của bạn, nhận những phần thưởng lớn!"
+  },
+  "menu": {
+    "all": "Tất cả",
+    "home": "Trang chủ",
+    "games": "Trò chơi",
+    "pools": "Bể",
+    "referrals": "Giới thiệu",
+    "account": "Tài khoản",
+    "raffles": "Rút thăm",
+    "instants": "Trò chơi ngay lập tức",
+    "scratchers": "Thẻ cào",
+    "flips": "Lật đồng xu",
+    "more": "Thêm",
+    "winners": "Người thắng",
+    "about": "Về chúng tôi",
+    "contact": "Liên hệ",
+    "features": "Tính năng",
+    "staking": "Staking",
+    "jackpot": "Jackpot",
+    "streakBonus": "Thưởng chuỗi thắng",
+    "help": "Trợ giúp",
+    "docs": "Tài liệu",
+    "faq": "Câu hỏi thường gặp",
+    "privicy_policy": "Chính sách bảo mật",
+    "terms_of_service": "Điều khoản dịch vụ"
+  },
+  "settings": {
+    "connect_button": "Kết nối",
+    "locale_label": "Ngôn ngữ",
+    "theme_label": "Chế độ giao diện"
+  },
+  "common": {
+    "load_more": "Tải thêm",
+    "loading_more": "Đang tải thêm...",
+    "no_data": "Không có dữ liệu",
+    "coming_soon": "Sắp ra mắt"
+  },
+  "home": {
+    "title": "Hãy thử <span>vận may</span> của bạn, nhận những phần thưởng lớn!",
+    "sub_title": "Nền tảng Web3 công bằng để chiến thắng cho cộng đồng",
+    "fairness": "Công bằng",
+    "transparency": "Minh bạch",
+    "trustless": "Không cần tin tưởng",
+    "permissionless": "Không cần phép",
+    "powered_by": "Được cung cấp bởi"
+  },
+  "games": {
+    "quickgame": "Trò chơi nhanh",
+    "instants": "Trò chơi ngay lập tức",
+    "instants_desc": "Khám phá kho báu ẩn, phần thưởng hấp dẫn đang chờ đón",
+    "jackpot": "Jackpot",
+    "play": "Chơi",
+    "history": "Lịch sử",
+    "stake": "Staking",
+    "CoinFlip": {
+      "name": "Lật đồng xu",
+      "desc": "Đặt cược EDGE với tỷ lệ trả thưởng lên đến <strong>48,25 lần</strong>!",
+      "option": {
+        "select": "Chọn lựa chọn",
+        "HEAD": "Mặt sấp",
+        "TAIL": "Mặt ngửa",
+        "EDGE": "EDGE"
+      }
+    },
+    "DiceShake": {
+      "name": "Lắc xí ngầu",
+      "desc": "Đôi khi thắng, đôi khi thua!"
+    },
+    "Scratch69": {
+      "name": "Thẻ cào69",
+      "desc": "Đến <strong>10000 lần</strong> tỷ lệ trả thưởng!"
+    },
+    "list": {
+      "latest_winner": "Người thắng mới nhất",
+      "title_date": "Ngày",
+      "title_player": "Người chơi",
+      "title_game": "Trò chơi",
+      "title_bet": "Đặt cược",
+      "title_bet_amount": "Số tiền cược",
+      "title_payout": "Tiền trả",
+      "title_bonus": "Thưởng",
+      "title_payback": "Tiền hoàn lại",
+      "title_stake": "Staking",
+      "title_earn": "Lợi nhuận",
+      "title_pending": "Chờ xử lý",
+      "title_multiplier": "Hệ số",
+      "title_times": "Lần",
+      "title_profit": "Lợi nhuận",
+      "title_won": "Thắng",
+      "title_lost": "Thua",
+      "title_winrate": "Tỷ lệ thắng",
+      "title_chance": "Cơ hội thắng",
+      "title_to_win": "để thắng",
+      "title_draw_number": "Số lượt quay",
+      "error_insufficient_balance": "Số dư không đủ: Bạn hiện có",
+      "tab": {
+        "all": "Tất cả cược",
+        "my_bets": "Cược của tôi",
+        "high_rollers": "Cược lớn",
+        "rare_wins": "Thắng hiếm",
+        "jackpot": "Jackpot thắng",
+        "streak_wins": "Chuỗi thắng",
+        "top_player": "Người chơi hàng đầu"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "Thưởng Jackpot",
+        "DiceShake": "Nếu bạn thắng cược và số quay là 42/69, bạn sẽ nhận được 30% jackpot.",
+        "CoinFlip": "Nếu bạn thắng cược và số quay là 69/420, bạn sẽ nhận được 30% jackpot.",
+        "Scratch69": "Nếu bạn thắng giải thưởng lớn/đầu tiên/thứ hai, bạn sẽ nhận được 30%/15%/7,5% jackpot."
+      },
+      "streakWin": {
+        "title": "Thắng liên tiếp",
+        "label": "Lần thắng thứ 5",
+        "desc": "Bạn sẽ nhận được Thưởng thêm nếu bạn thắng 5 lần liên tiếp"
+      },
+      "streakLoss": {
+        "title": "Thua liên tiếp",
+        "label": "Lần thua thứ 5",
+        "desc": "Bạn sẽ nhận được số tiền cược thứ 4 nếu bạn thua 5 lần liên tiếp"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "Lưu",
+    "btn_play": "Chơi ngay",
+    "btn_claim": "Nhận thưởng",
+    "btn_stake": "Staking ngay",
+    "btn_unstake": "Hủy staking",
+    "profit": "Lợi nhuận đang chờ xử lý",
+    "wallet_confirm": "Xác nhận trong ví của bạn",
+    "require_bet_amount": "Số tiền cược yêu cầu",
+    "require_bet_amount_msg": "Vui lòng nhập số tiền cược",
+    "require_bet_option": "Lựa chọn cược bắt buộc",
+    "require_bet_option_msg": "Vui lòng chọn lựa chọn cược",
+    "copy_address": "Sao chép địa chỉ",
+    "success": "Thành công",
+    "tx_success": "Giao dịch thành công",
+    "tx_fail": "Giao dịch thất bại",
+    "tx_view": "Xem giao dịch",
+    "form_saved": "Lưu thay đổi thành công",
+    "form_saved_fail": "Lưu thay đổi thất bại",
+    "upload_fail": "Tải lên thất bại",
+    "title_bet": "Đặt cược",
+    "field_bet_amount": "Số tiền cược",
+    "field_stake": "Số tiền",
+    "field_stake_amount": "Số tiền cược",
+    "field_nickname": "Biệt danh",
+    "field_address": "Địa chỉ"
+  },
+  "share": {
+    "copy_link": "Sao chép liên kết",
+    "copy_success": "Sao chép thành công",
+    "share_on": "Chia sẻ trên",
+    "share_text": "🚀 Thử vận may của bạn trên CoinLucks!\n💎 Kiểm tra liên kết và nhận phần thưởng lớn!\n{tags}\n"
+  },
+  "pool": {
+    "pools": "Bể",
+    "jackpot_pool": "Bể Jackpot",
+    "staking_pool": "Bể Staking",
+    "staking_pool_desc": "Cược {token} để nhận phần thưởng, 30% doanh thu từ phí trò chơi sẽ được phân phối cho những người đặt cược.",
+    "total_staked": "Tổng số đã cược",
+    "how_it_work": "Cách thức hoạt động",
+    "my_stake": "Staking của tôi",
+    "field": {
+      "balance": "Số dư",
+      "balance_tip": "Số dư bể staking",
+      "rewards": "Phần thưởng",
+      "rewards_tip": "Tổng phần thưởng nhận được",
+      "distributed": "Phần thưởng đã phân phối",
+      "distributed_tip": "Tổng phần thưởng đã phân phối",
+      "apr": "APR (14 ngày)",
+      "apr_tip": "Cược {amount} {token} để nhận {yield}% lợi nhuận trong 14 ngày",
+      "yield": "Lợi nhuận 14 ngày",
+      "yield_tip": "Cược {amount} {token} để nhận {yield}% lợi nhuận trong 14 ngày",
+      "yield_amount": "Số tiền lợi nhuận",
+      "stake_amount": "Số tiền staking",
+      "stake_for": "Cược cho",
+      "est_reward_received": "Ước tính phần thưởng tổng cộng của pool",
+      "pending_reward": "Phần thưởng đang chờ",
+      "auto_compound": "Tự động tái đầu tư",
+      "share_of_pool": "Phần chia bể",
+      "unlocked": "Đã mở khóa",
+      "unlock_in": "Mở khóa trong",
+      "unlock_in_tip": "Thời gian khóa staking 7 ngày. Phí hủy sớm là 5%."
+    },
+    "note": {
+      "note1": "Các phép tính được dựa trên pool phần thưởng.",
+      "note2": "Phần thưởng staking được phân phối tuyến tính trong mỗi kỳ 14 ngày.",
+      "note3": "Phí rút trước hạn: Áp dụng phí 5% cho phần thưởng nếu staking ít hơn 7 ngày.",
+      "note4": "Tất cả các con số chỉ là ước tính và được cung cấp chỉ để tham khảo, không đảm bảo lợi nhuận."
+    }
+  },
+  "referral": {
+    "title": "Mời <span>bạn bè</span>, Nhận phần thưởng!",
+    "sub_title": "Nhận 25% phí thanh toán từ mỗi người bạn mời.",
+    "instanct_payout": "Thanh toán ngay lập tức",
+    "two_tier_reward": "Phần thưởng hai cấp",
+    "commission_rate": "Tỷ lệ hoa hồng 24% + 1%",
+    "how_to_invite": "Cách mời",
+    "tab_refer": "Giới thiệu & Kiếm tiền",
+    "tab_leaderboard": "Bảng xếp hạng",
+    "referral_link": "Liên kết giới thiệu của bạn",
+    "friends_referred": "Bạn bè đã giới thiệu",
+    "friends_referred_tip": "Bạn bè cấp 1/Cấp 2",
+    "lifetime_rewards": "Phần thưởng trọn đời",
+    "recent_referree": "Người được giới thiệu gần đây",
+    "joined_time": "Thời gian tham gia",
+    "referree": "Người được giới thiệu",
+    "purchase": "Mua hàng",
+    "earn": "Kiếm tiền",
+    "date": "Ngày"
+  },
+  "account": {
+    "activity": "Hoạt động",
+    "wins": "Chiến thắng",
+    "bets": "Cược",
+    "total": "Tổng cộng",
+    "wagered": "Số tiền cược",
+    "winnings": "Tiền thắng",
+    "statistic": "Thống kê",
+    "top_play_games": "Trò chơi chơi nhiều nhất",
+    "bind_telegram": "Liên kết tài khoản Telegram"
+  }
+}

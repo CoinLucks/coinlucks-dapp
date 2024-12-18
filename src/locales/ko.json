@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - Web3 공정한 승리를 위한 플랫폼",
+    "description": "운을 시험해보세요, 큰 상금을 가져가세요!"
+  },
+  "menu": {
+    "all": "전체",
+    "home": "홈",
+    "games": "게임",
+    "pools": "풀",
+    "referrals": "추천인",
+    "account": "계정",
+    "raffles": "추첨",
+    "instants": "즉시 게임",
+    "scratchers": "스크래치 카드",
+    "flips": "동전 던지기",
+    "more": "더보기",
+    "winners": "당첨자",
+    "about": "정보",
+    "contact": "연락처",
+    "features": "기능",
+    "staking": "스테이킹",
+    "jackpot": "잭팟",
+    "streakBonus": "연승 보너스",
+    "help": "도움말",
+    "docs": "문서",
+    "faq": "자주 묻는 질문",
+    "privicy_policy": "개인정보 보호정책",
+    "terms_of_service": "이용약관"
+  },
+  "settings": {
+    "connect_button": "연결",
+    "locale_label": "언어",
+    "theme_label": "테마 모드"
+  },
+  "common": {
+    "load_more": "더 불러오기",
+    "loading_more": "불러오는 중...",
+    "no_data": "데이터 없음",
+    "coming_soon": "곧 출시 예정"
+  },
+  "home": {
+    "title": "당신의 <span>운</span>을 시험해보세요, 큰 상금을 가져가세요!",
+    "sub_title": "Web3 공정한 승리를 위한 커뮤니티 플랫폼",
+    "fairness": "공정성",
+    "transparency": "투명성",
+    "trustless": "신뢰 없음",
+    "permissionless": "허가 없음",
+    "powered_by": "제공"
+  },
+  "games": {
+    "quickgame": "빠른 게임",
+    "instants": "즉시 게임",
+    "instants_desc": "숨겨진 보물을 발견하고 흥미진진한 상금을 획득하세요",
+    "jackpot": "잭팟",
+    "play": "게임 시작",
+    "history": "게임 기록",
+    "stake": "스테이킹",
+    "CoinFlip": {
+      "name": "동전 던지기",
+      "desc": "EDGE 최대 <strong>48.25배</strong> 배당으로 베팅하세요!",
+      "option": {
+        "select": "옵션 선택",
+        "HEAD": "앞면",
+        "TAIL": "뒷면",
+        "EDGE": "EDGE"
+      }
+    },
+    "DiceShake": {
+      "name": "주사위 던지기",
+      "desc": "두 배 또는 손실!"
+    },
+    "Scratch69": {
+      "name": "스크래치 카드69",
+      "desc": "최대 <strong>10000배</strong> 배당!"
+    },
+    "list": {
+      "latest_winner": "최신 당첨자",
+      "title_date": "날짜",
+      "title_player": "플레이어",
+      "title_game": "게임",
+      "title_bet": "배팅",
+      "title_bet_amount": "배팅 금액",
+      "title_payout": "지급액",
+      "title_bonus": "보너스",
+      "title_payback": "환급",
+      "title_stake": "스테이킹",
+      "title_earn": "수익",
+      "title_pending": "대기 중",
+      "title_multiplier": "배수",
+      "title_times": "배수",
+      "title_profit": "수익",
+      "title_won": "승리",
+      "title_lost": "패배",
+      "title_winrate": "승률",
+      "title_chance": "승리 확률",
+      "title_to_win": "승리까지",
+      "title_draw_number": "추첨 번호",
+      "error_insufficient_balance": "잔액 부족: 현재 보유 중인 금액",
+      "tab": {
+        "all": "모든 배팅",
+        "my_bets": "내 배팅",
+        "high_rollers": "하이 롤러",
+        "rare_wins": "희귀 승리",
+        "jackpot": "잭팟 승리",
+        "streak_wins": "연승",
+        "top_player": "최고 플레이어"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "잭팟 보너스",
+        "DiceShake": "베팅에서 승리하고 추첨 번호가 42/69일 경우 잭팟의 30%를 받습니다.",
+        "CoinFlip": "베팅에서 승리하고 추첨 번호가 69/420일 경우 잭팟의 30%를 받습니다.",
+        "Scratch69": "그랜드/첫 번째/두 번째 상을 획득하면 잭팟의 30%/15%/7.5%를 받습니다."
+      },
+      "streakWin": {
+        "title": "연승 보너스",
+        "label": "5번째 승리 시",
+        "desc": "5번 연속으로 승리하면 추가 보너스를 받습니다"
+      },
+      "streakLoss": {
+        "title": "연패 보너스",
+        "label": "5번째 패배 시",
+        "desc": "5번 연속으로 패배하면 네 번째 배팅 금액을 받습니다"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "저장",
+    "btn_play": "지금 플레이",
+    "btn_claim": "보상 받기",
+    "btn_stake": "지금 스테이킹",
+    "btn_unstake": "스테이킹 해제",
+    "profit": "대기 중인 수익",
+    "wallet_confirm": "지갑에서 확인",
+    "require_bet_amount": "배팅 금액 필수",
+    "require_bet_amount_msg": "배팅 금액을 입력해주세요",
+    "require_bet_option": "배팅 옵션 필수",
+    "require_bet_option_msg": "배팅 옵션을 선택해주세요",
+    "copy_address": "주소 복사",
+    "success": "성공",
+    "tx_success": "거래 성공",
+    "tx_fail": "거래 실패",
+    "tx_view": "거래 보기",
+    "form_saved": "변경 사항 저장됨",
+    "form_saved_fail": "변경 사항 저장 실패",
+    "upload_fail": "업로드 실패",
+    "title_bet": "배팅",
+    "field_bet_amount": "배팅 금액",
+    "field_stake": "스테이킹",
+    "field_stake_amount": "스테이킹 금액",
+    "field_nickname": "닉네임",
+    "field_address": "주소"
+  },
+  "share": {
+    "copy_link": "링크 복사",
+    "copy_success": "복사 성공",
+    "share_on": "공유하기",
+    "share_text": "🚀 CoinLucks에서 운을 시험해보세요!\n💎 링크를 확인하고 큰 상금을 획득하세요!\n{tags}\n"
+  },
+  "pool": {
+    "pools": "풀",
+    "jackpot_pool": "잭팟 풀",
+    "staking_pool": "스테이킹 풀",
+    "staking_pool_desc": "{token}을 스테이킹하여 보상을 얻고, 게임 수수료의 30%가 스테이커에게 분배됩니다.",
+    "total_staked": "총 스테이킹된 금액",
+    "how_it_work": "작동 방식",
+    "my_stake": "내 스테이킹",
+    "field": {
+      "balance": "잔액",
+      "balance_tip": "스테이킹 풀 잔액",
+      "rewards": "보상",
+      "rewards_tip": "총 받은 보상",
+      "distributed": "배분된 보상",
+      "distributed_tip": "총 배분된 보상",
+      "apr": "APR (14일)",
+      "apr_tip": "{amount} {token}을 스테이킹하여 14일 동안 {yield}%의 수익을 얻으세요",
+      "yield": "14일 수익",
+      "yield_tip": "{amount} {token}을 스테이킹하여 14일 동안 {yield}%의 수익을 얻으세요",
+      "yield_amount": "수익 금액",
+      "stake_amount": "스테이킹 금액",
+      "stake_for": "스테이킹 목적",
+      "est_reward_received": "예상 총 풀 보상",
+      "pending_reward": "대기 중인 보상",
+      "auto_compound": "자동 복리",
+      "share_of_pool": "풀의 지분",
+      "unlocked": "잠금 해제됨",
+      "unlock_in": "잠금 해제까지",
+      "unlock_in_tip": "스테이킹 잠금 기간 7일. 조기 해제 수수료는 5%입니다."
+    },
+    "note": {
+      "note1": "계산은 보상 풀을 기준으로 합니다.",
+      "note2": "스테이킹 보상은 14일마다 선형적으로 분배됩니다.",
+      "note3": "조기 언스테이킹 수수료: 스테이킹 기간이 7일 미만인 경우 보상에 5%의 수수료가 부과됩니다.",
+      "note4": "모든 수치는 참고용으로 제공된 추정치이며, 보장된 수익을 나타내지 않습니다."
+    }
+  },
+  "referral": {
+    "title": "친구를 초대하고 <span>보상</span>을 얻으세요!",
+    "sub_title": "초대한 친구가 지불한 수수료의 25%를 얻을 수 있습니다.",
+    "instanct_payout": "즉시 지급",
+    "two_tier_reward": "2단계 보상",
+    "commission_rate": "24% + 1% 수수료",
+    "how_to_invite": "초대 방법",
+    "tab_refer": "초대하고 보상 받기",
+    "tab_leaderboard": "리더보드",
+    "referral_link": "내 추천 링크",
+    "friends_referred": "초대한 친구",
+    "friends_referred_tip": "1단계/2단계 친구",
+    "lifetime_rewards": "평생 보상",
+    "recent_referree": "최근 초대된 사용자",
+    "joined_time": "가입 시간",
+    "referree": "추천인",
+    "purchase": "구매",
+    "earn": "수익",
+    "date": "날짜"
+  },
+  "account": {
+    "activity": "활동",
+    "wins": "승리",
+    "bets": "배팅",
+    "total": "총합",
+    "wagered": "배팅한 금액",
+    "winnings": "수익",
+    "statistic": "통계",
+    "top_play_games": "자주 플레이한 게임",
+    "bind_telegram": "텔레그램 계정 연결"
+  }
+}

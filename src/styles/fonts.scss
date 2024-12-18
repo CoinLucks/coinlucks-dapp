@@ -1,0 +1,27 @@
+// fonts
+@font-face {
+  font-family: "Rubik";
+  src: url("/assets/fonts/rubik.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Rubik";
+  src: url("/assets/fonts/rubik-italic.ttf") format("truetype");
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PressStart2P";
+  src: url("/assets/fonts/PressStart2P.ttf") format("truetype");
+  font-style: normal;
+}
+
+@mixin rubik {
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+@mixin PressStart2P {
+  font-family: "PressStart2P", Arial, Helvetica, sans-serif;
+}
+

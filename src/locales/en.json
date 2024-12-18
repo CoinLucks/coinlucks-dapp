@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - Web3 Fair-to-Win Platform",
+    "description": "Try Your Luck, Win Big Prizes!"
+  },
+  "menu": {
+    "all": "All",
+    "home": "Home",
+    "games": "Games",
+    "pools": "Pools",
+    "referrals": "Referrals",
+    "account": "Account",
+    "raffles": "Raffles",
+    "instants": "Instants",
+    "scratchers": "Scratchers",
+    "flips": "Flips",
+    "more": "More",
+    "winners": "Winners",
+    "about": "About",
+    "contact": "Contact",
+    "features": "Features",
+    "staking": "Staking",
+    "jackpot": "Jackpot",
+    "streakBonus": "Streak Bonus",
+    "help": "Help",
+    "docs": "Docs",
+    "faq": "FAQ",
+    "privicy_policy": "Privacy Policy",
+    "terms_of_service": "Terms of Service"
+  },
+  "settings": {
+    "connect_button": "Connect",
+    "locale_label": "Languages",
+    "theme_label": "Theme Mode"
+  },
+  "common": {
+    "load_more": "Load More",
+    "loading_more": "Loading more...",
+    "no_data": "No Data",
+    "coming_soon": "Coming Soon"
+  },
+  "home": {
+    "title": "Try Your <span>Lucks</span>, Win Big Prizes!",
+    "sub_title": "The Web3 Fair-to-Win Platform for Community",
+    "fairness": "Fairness",
+    "transparency": "Transparency",
+    "trustless": "Trustless",
+    "permissionless": "Permissionless",
+    "powered_by": "Powered By"
+  },
+  "games": {
+    "quickgame": "Quick Games",
+    "instants": "Instants Games",
+    "instants_desc": "Uncover Hidden Treasures, Exciting Prizes Await",
+    "jackpot": "Jackpot",
+    "play": "Play",
+    "history": "History",
+    "stake": "Staking",
+    "CoinFlip": {
+      "name": "CoinFlip",
+      "desc": "Bet EDGE Up to <strong>48.25x</strong> Payouts!",
+      "option": {
+        "select": "Select option",
+        "HEAD": "HEAD",
+        "TAIL": "TAIL",
+        "EDGE": "EDGE"
+      }
+    },
+    "DiceShake": {
+      "name": "DiceShake",
+      "desc": "Double or Loss!"
+    },
+    "Scratch69": {
+      "name": "Scratch69",
+      "desc": "Up to <strong>10000x</strong> Payouts!"
+    },
+    "list": {
+      "latest_winner": "Latest Winners",
+      "title_date": "Date",
+      "title_player": "Player",
+      "title_game": "Game",
+      "title_bet": "Bet",
+      "title_bet_amount": "Bet Amount",
+      "title_payout": "Payout",
+      "title_bonus": "Bonus",
+      "title_payback": "Payback",
+      "title_stake": "Staked",
+      "title_earn": "Earned",
+      "title_pending": "Pending",
+      "title_multiplier": "Multiplier",
+      "title_times": "Times",
+      "title_profit": "Profit",
+      "title_won": "Won",
+      "title_lost": "Lost",
+      "title_winrate": "WinRate",
+      "title_chance": "Chance to win",
+      "title_to_win": "to win",
+      "title_draw_number": "Draw",
+      "error_insufficient_balance": "Insufficient balance: You have",
+      "tab": {
+        "all": "All Bets",
+        "my_bets": "My Bets",
+        "high_rollers": "High Roller",
+        "rare_wins": "Rare Wins",
+        "jackpot": "Jackpot Wins",
+        "streak_wins": "Streak Wins",
+        "top_player": "Top Player"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "Jackpot Bonus",
+        "DiceShake": "If you win a bet and the draw number is 42/69, you'll get 30% of the jackpot.",
+        "CoinFlip": "If you win a bet and the draw number is 69/420, you'll get 30% of the jackpot.",
+        "Scratch69": "If you win the Grand/First/Second Prize, you'll get 30%/15%/7.5% of the jackpot."
+      },
+      "streakWin": {
+        "title": "Streak Wins",
+        "label": "On 5th win",
+        "desc": "You will earn Extra Bonus if you win five times in a row"
+      },
+      "streakLoss": {
+        "title": "Streak Loss",
+        "label": "On 5th loss",
+        "desc": "You will receive the amount of your FOUTH bet if you lose five times in a row"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "Save",
+    "btn_play": "Play Now",
+    "btn_claim": "Claim",
+    "btn_stake": "Stake Now",
+    "btn_unstake": "Unstake",
+    "profit": "Pending profits",
+    "wallet_confirm": "Confirm in your Wallet",
+    "require_bet_amount": "Bet Amount Required",
+    "require_bet_amount_msg": "Please input Bet Amount",
+    "require_bet_option": "Bet Option Required",
+    "require_bet_option_msg": "Please select Bet Option",
+    "copy_address": "Copy Address",
+    "success": "Success",
+    "tx_success": "Transaction Success",
+    "tx_fail": "Transaction Fail",
+    "tx_view": "View Tx",
+    "form_saved": "Saved Changes",
+    "form_saved_fail": "Failed to save changes",
+    "upload_fail": "Failed to upload",
+    "title_bet": "Betting",
+    "field_bet_amount": "Bet Amount",
+    "field_stake": "Stake",
+    "field_stake_amount": "Stake Amount",
+    "field_nickname": "Nickname",
+    "field_address": "Address"
+  },
+  "share": {
+    "copy_link": "Copy Link",
+    "copy_success": "Copy Success",
+    "share_on": "Share on",
+    "share_text": "🚀 Try Your Luck on CoinLucks!\n💎 Check out the link and Win Big Prizes!\n{tags}\n"
+  },
+  "pool": {
+    "pools": "Pools",
+    "jackpot_pool": "Jackpot Pool",
+    "staking_pool": "Staking Pool",
+    "staking_pool_desc": "Stake {token} to earn rewards, with 30% of the game fee revenue distributed to stakers.",
+    "total_staked": "Total Staked",
+    "how_it_work": "How it work",
+    "my_stake": "My Staking",
+    "field": {
+      "balance": "Balance",
+      "balance_tip": "Staking Pool Balance",
+      "rewards": "Rewards",
+      "rewards_tip": "Total Rewards Received",
+      "distributed": "Distributed",
+      "distributed_tip": "Total Rewards Distributed",
+      "apr": "APR",
+      "apr_tip": "Stake {amount} {token} to earn a {yield}% yield over 14 days",
+      "yield": "14-Day Yield",
+      "yield_tip": "Stake {amount} {token} to earn a {yield}% yield over 14 days",
+      "yield_amount": "Yield Amount",
+      "stake_amount": "Staked Amount",
+      "stake_for": "Stake for",
+      "est_reward_received": "Estimate Total Pool Rewards",
+      "pending_reward": "Pending Rewards",
+      "auto_compound": "Auto Compound",
+      "share_of_pool": "Share of Pool",
+      "unlocked": "Unlocked",
+      "unlock_in": "Unlocks in",
+      "unlock_in_tip": "7 days Lock-Period of Staking.Early Unstake Fee is 5%."
+    },
+    "note": {
+      "note1": "Calculations are based on the reward pool.",
+      "note2": "Staking rewards are distributed linearly over each 14-day period.",
+      "note3": "Early Unstake Fee: A 5% fee applies to rewards if staking is for less than 7 days.",
+      "note4": "All figures are estimates provided for your convenience only, and by no means represent guaranteed returns."
+    }
+  },
+  "referral": {
+    "title": "Invite <span>friends</span>, Earn Rewards!",
+    "sub_title": "Earn 25% of all payment fee from each friend you refer.",
+    "instanct_payout": "Instant Payouts",
+    "two_tier_reward": "Two-Tier Rewards",
+    "commission_rate": "24% + 1% Commission Rate",
+    "how_to_invite": "How to Invite",
+    "tab_refer": "Refer & Earn",
+    "tab_leaderboard": "Leaderboard",
+    "referral_link": "Your referral link",
+    "friends_referred": "Friends referred",
+    "friends_referred_tip": "Tier1/Tier2 friends",
+    "lifetime_rewards": "Lifetime rewards",
+    "recent_referree": "Recent Referree",
+    "joined_time": "Joined time",
+    "referree": "Referree",
+    "purchase": "Purchase",
+    "earn": "Earn",
+    "date": "Date"
+  },
+  "account": {
+    "activity": "Activity",
+    "wins": "Wins",
+    "bets": "Bets",
+    "total": "Total",
+    "wagered": "Wagered",
+    "winnings": "Winnings",
+    "statistic": "Statistic",
+    "top_play_games": "Top Played Games",
+    "bind_telegram": "Bind Telegram Account"
+  }
+}

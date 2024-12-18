@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - Web3 Fair-to-Win Plattform",
+    "description": "Versuche dein Glück, gewinne große Preise!"
+  },
+  "menu": {
+    "all": "Alle",
+    "home": "Startseite",
+    "games": "Spiele",
+    "pools": "Pools",
+    "referrals": "Empfehlungen",
+    "account": "Konto",
+    "raffles": "Verlosungen",
+    "instants": "Sofortspiele",
+    "scratchers": "Rubbellose",
+    "flips": "Kopf oder Zahl",
+    "more": "Mehr",
+    "winners": "Gewinner",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "features": "Funktionen",
+    "staking": "Staking",
+    "jackpot": "Jackpot",
+    "streakBonus": "Streak Bonus",
+    "help": "Hilfe",
+    "docs": "Dokumentation",
+    "faq": "FAQ",
+    "privicy_policy": "Datenschutzrichtlinie",
+    "terms_of_service": "Nutzungsbedingungen"
+  },
+  "settings": {
+    "connect_button": "Verbinden",
+    "locale_label": "Sprachen",
+    "theme_label": "Themenmodus"
+  },
+  "common": {
+    "load_more": "Mehr laden",
+    "loading_more": "Lädt mehr...",
+    "no_data": "Keine Daten",
+    "coming_soon": "Kommt bald"
+  },
+  "home": {
+    "title": "Versuche dein <span>Glück</span>, gewinne große Preise!",
+    "sub_title": "Die Web3 Fair-to-Win Plattform für die Community",
+    "fairness": "Fairness",
+    "transparency": "Transparenz",
+    "trustless": "Vertrauenslos",
+    "permissionless": "Berechtigungsfrei",
+    "powered_by": "Unterstützt durch"
+  },
+  "games": {
+    "quickgame": "Schnellspiele",
+    "instants": "Sofortspiele",
+    "instants_desc": "Entdecke versteckte Schätze, aufregende Preise erwarten dich",
+    "jackpot": "Jackpot",
+    "play": "Spielen",
+    "history": "Historie",
+    "stake": "Staking",
+    "CoinFlip": {
+      "name": "Kopf oder Zahl",
+      "desc": "Setze EDGE mit bis zu <strong>48,25x</strong> Auszahlungen!",
+      "option": {
+        "select": "Option wählen",
+        "HEAD": "KOPF",
+        "TAIL": "ZAHL",
+        "EDGE": "EDGE"
+      }
+    },
+    "DiceShake": {
+      "name": "Würfeln",
+      "desc": "Verdopple oder verliere!"
+    },
+    "Scratch69": {
+      "name": "Rubbellose69",
+      "desc": "Bis zu <strong>10000x</strong> Auszahlungen!"
+    },
+    "list": {
+      "latest_winner": "Neueste Gewinner",
+      "title_date": "Datum",
+      "title_player": "Spieler",
+      "title_game": "Spiel",
+      "title_bet": "Wette",
+      "title_bet_amount": "Wette Betrag",
+      "title_payout": "Auszahlung",
+      "title_bonus": "Bonus",
+      "title_payback": "Rückzahlung",
+      "title_stake": "Gestakt",
+      "title_earn": "Gewonnen",
+      "title_pending": "Ausstehend",
+      "title_multiplier": "Multiplikator",
+      "title_times": "Mal",
+      "title_profit": "Gewinn",
+      "title_won": "Gewonnen",
+      "title_lost": "Verloren",
+      "title_winrate": "Gewinnrate",
+      "title_chance": "Gewinnchance",
+      "title_to_win": "zum gewinnen",
+      "title_draw_number": "Ziehung",
+      "error_insufficient_balance": "Unzureichendes Guthaben: Du hast",
+      "tab": {
+        "all": "Alle Wetten",
+        "my_bets": "Meine Wetten",
+        "high_rollers": "High Roller",
+        "rare_wins": "Seltene Gewinne",
+        "jackpot": "Jackpot Gewinne",
+        "streak_wins": "Streak Gewinne",
+        "top_player": "Top Spieler"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "Jackpot Bonus",
+        "DiceShake": "Wenn du eine Wette gewinnst und die Ziehungsnummer 42/69 ist, erhältst du 30% des Jackpots.",
+        "CoinFlip": "Wenn du eine Wette gewinnst und die Ziehungsnummer 69/420 ist, erhältst du 30% des Jackpots.",
+        "Scratch69": "Wenn du den Haupt-/Ersten/zweiten Preis gewinnst, erhältst du 30%/15%/7,5% des Jackpots."
+      },
+      "streakWin": {
+        "title": "Streak Gewinne",
+        "label": "Bei 5. Gewinn",
+        "desc": "Du erhältst einen Extra-Bonus, wenn du fünfmal hintereinander gewinnst"
+      },
+      "streakLoss": {
+        "title": "Streak Verluste",
+        "label": "Bei 5. Verlust",
+        "desc": "Du erhältst den Betrag deiner vierten Wette, wenn du fünfmal hintereinander verlierst"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "Speichern",
+    "btn_play": "Jetzt spielen",
+    "btn_claim": "Beanspruchen",
+    "btn_stake": "Jetzt staken",
+    "btn_unstake": "Unstake",
+    "profit": "Ausstehende Gewinne",
+    "wallet_confirm": "Bestätige in deiner Wallet",
+    "require_bet_amount": "Wettebetrag erforderlich",
+    "require_bet_amount_msg": "Bitte gib den Wettebetrag ein",
+    "require_bet_option": "Wetteoption erforderlich",
+    "require_bet_option_msg": "Bitte wähle eine Wetteoption",
+    "copy_address": "Adresse kopieren",
+    "success": "Erfolg",
+    "tx_success": "Transaktion erfolgreich",
+    "tx_fail": "Transaktion fehlgeschlagen",
+    "tx_view": "Transaktion ansehen",
+    "form_saved": "Änderungen gespeichert",
+    "form_saved_fail": "Fehler beim Speichern der Änderungen",
+    "upload_fail": "Fehler beim Hochladen",
+    "title_bet": "Wetten",
+    "field_bet_amount": "Wettebetrag",
+    "field_stake": "Gestakt",
+    "field_stake_amount": "Einsatzbetrag",
+    "field_nickname": "Spitzname",
+    "field_address": "Adresse"
+  },
+  "share": {
+    "copy_link": "Link kopieren",
+    "copy_success": "Kopieren erfolgreich",
+    "share_on": "Teilen auf",
+    "share_text": "🚀 Versuche dein Glück auf CoinLucks!\n💎 Schau dir den Link an und gewinne große Preise!\n{tags}\n"
+  },
+  "pool": {
+    "pools": "Pools",
+    "jackpot_pool": "Jackpot Pool",
+    "staking_pool": "Staking Pool",
+    "staking_pool_desc": "Setze {token}, um Belohnungen zu verdienen, wobei 30% der Spielgebühren an die Staker verteilt werden.",
+    "total_staked": "Gesamt gestakt",
+    "how_it_work": "Wie es funktioniert",
+    "my_stake": "Mein Staking",
+    "field": {
+      "balance": "Guthaben",
+      "balance_tip": "Staking Pool Guthaben",
+      "rewards": "Belohnungen",
+      "rewards_tip": "Gesamt erhaltene Belohnungen",
+      "distributed": "Verteilt",
+      "distributed_tip": "Gesamt verteilte Belohnungen",
+      "apr": "APR (14 Tage)",
+      "apr_tip": "Setze {amount} {token}, um {yield}% Rendite über 14 Tage zu erzielen",
+      "yield": "14-Tage-Rendite",
+      "yield_tip": "Setze {amount} {token}, um {yield}% Rendite über 14 Tage zu erzielen",
+      "yield_amount": "Ertragsbetrag",
+      "stake_amount": "Gestaktes Guthaben",
+      "stake_for": "Setzen für",
+      "est_reward_received": "Geschätzte Gesamtbelohnungen des Pools",
+      "pending_reward": "Ausstehende Belohnungen",
+      "auto_compound": "Automatisches Kompoundieren",
+      "share_of_pool": "Anteil am Pool",
+      "unlocked": "Freigeschaltet",
+      "unlock_in": "Wird freigeschaltet in",
+      "unlock_in_tip": "7 Tage Sperrfrist für Staking. Vorzeitige unstake-Gebühr beträgt 5%."
+    },
+    "note": {
+      "note1": "Berechnungen basieren auf dem Belohnungspool.",
+      "note2": "Staking-Belohnungen werden über jedes 14-Tage-Zeitraum linear verteilt.",
+      "note3": "Frühzeitig unstaken Gebühr: Eine Gebühr von 5% wird auf Belohnungen erhoben, wenn das Staking weniger als 7 Tage dauert.",
+      "note4": "Alle Zahlen sind nur Schätzungen zu Ihrer Information und stellen keinesfalls garantierte Erträge dar."
+    }
+  },
+  "referral": {
+    "title": "Freunde <span>einladen</span>, Belohnungen verdienen!",
+    "sub_title": "Verdiene 25% aller Zahlungsgebühren von jedem Freund, den du einlädst.",
+    "instanct_payout": "Sofortige Auszahlungen",
+    "two_tier_reward": "Zwei-Tier Belohnungen",
+    "commission_rate": "24% + 1% Kommissionsrate",
+    "how_to_invite": "Wie man einlädt",
+    "tab_refer": "Einladen & Verdienen",
+    "tab_leaderboard": "Rangliste",
+    "referral_link": "Dein Empfehlungslink",
+    "friends_referred": "Eingeladene Freunde",
+    "friends_referred_tip": "Tier1/Tier2 Freunde",
+    "lifetime_rewards": "Lebenslange Belohnungen",
+    "recent_referree": "Letzter Eingeladener",
+    "joined_time": "Beitrittszeit",
+    "referree": "Eingeladener",
+    "purchase": "Kauf",
+    "earn": "Verdienen",
+    "date": "Datum"
+  },
+  "account": {
+    "activity": "Aktivität",
+    "wins": "Gewinne",
+    "bets": "Wetten",
+    "total": "Gesamt",
+    "wagered": "Einsatz",
+    "winnings": "Gewinne",
+    "statistic": "Statistik",
+    "top_play_games": "Top gespielte Spiele",
+    "bind_telegram": "Telegram-Konto verknüpfen"
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - Web3 フェア・トゥ・ウィン プラットフォーム",
+    "description": "運試しをして、ビッグプライズを手に入れよう！"
+  },
+  "menu": {
+    "all": "すべて",
+    "home": "ホーム",
+    "games": "ゲーム",
+    "pools": "プール",
+    "referrals": "紹介",
+    "account": "アカウント",
+    "raffles": "ラッフル",
+    "instants": "インスタントゲーム",
+    "scratchers": "スクラッチカード",
+    "flips": "コインフリップ",
+    "more": "もっと",
+    "winners": "勝者",
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "features": "機能",
+    "staking": "ステーキング",
+    "jackpot": "ジャックポット",
+    "streakBonus": "ストリークボーナス",
+    "help": "ヘルプ",
+    "docs": "ドキュメント",
+    "faq": "FAQ",
+    "privicy_policy": "プライバシーポリシー",
+    "terms_of_service": "利用規約"
+  },
+  "settings": {
+    "connect_button": "接続",
+    "locale_label": "言語",
+    "theme_label": "テーマモード"
+  },
+  "common": {
+    "load_more": "もっと読み込む",
+    "loading_more": "さらに読み込んでいます...",
+    "no_data": "データがありません",
+    "coming_soon": "近日公開"
+  },
+  "home": {
+    "title": "あなたの <span>運</span> を試して、ビッグプライズを勝ち取ろう！",
+    "sub_title": "コミュニティのための Web3 フェア・トゥ・ウィンプラットフォーム",
+    "fairness": "公正",
+    "transparency": "透明性",
+    "trustless": "信頼不要",
+    "permissionless": "許可不要",
+    "powered_by": "提供元"
+  },
+  "games": {
+    "quickgame": "クイックゲーム",
+    "instants": "インスタントゲーム",
+    "instants_desc": "隠された宝物を発見し、エキサイティングなプライズを手に入れよう",
+    "jackpot": "ジャックポット",
+    "play": "プレイ",
+    "history": "履歴",
+    "stake": "ステーキング",
+    "CoinFlip": {
+      "name": "コインフリップ",
+      "desc": "EDGE を賭けて <strong>48.25倍</strong> の払い戻し！",
+      "option": {
+        "select": "オプションを選択",
+        "HEAD": "表",
+        "TAIL": "裏",
+        "EDGE": "EDGE"
+      }
+    },
+    "DiceShake": {
+      "name": "ダイスシェイク",
+      "desc": "倍か負けか！"
+    },
+    "Scratch69": {
+      "name": "スクラッチ69",
+      "desc": "<strong>10000倍</strong> の払い戻し！"
+    },
+    "list": {
+      "latest_winner": "最新の勝者",
+      "title_date": "日付",
+      "title_player": "プレイヤー",
+      "title_game": "ゲーム",
+      "title_bet": "ベット",
+      "title_bet_amount": "ベット額",
+      "title_payout": "払い戻し",
+      "title_bonus": "ボーナス",
+      "title_payback": "ペイバック",
+      "title_stake": "ステーキング",
+      "title_earn": "獲得額",
+      "title_pending": "保留中",
+      "title_multiplier": "倍率",
+      "title_times": "回数",
+      "title_profit": "利益",
+      "title_won": "勝ち",
+      "title_lost": "負け",
+      "title_winrate": "勝率",
+      "title_chance": "勝つチャンス",
+      "title_to_win": "勝つための",
+      "title_draw_number": "抽選番号",
+      "error_insufficient_balance": "残高不足: あなたの残高は",
+      "tab": {
+        "all": "すべてのベット",
+        "my_bets": "私のベット",
+        "high_rollers": "ハイローラー",
+        "rare_wins": "レアウィン",
+        "jackpot": "ジャックポットウィン",
+        "streak_wins": "ストリークウィン",
+        "top_player": "トッププレイヤー"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "ジャックポットボーナス",
+        "DiceShake": "もしあなたがベットに勝ち、抽選番号が 42/69 であれば、ジャックポットの 30% を獲得します。",
+        "CoinFlip": "もしあなたがベットに勝ち、抽選番号が 69/420 であれば、ジャックポットの 30% を獲得します。",
+        "Scratch69": "もしあなたがグランド/ファースト/セカンドプライズを獲得した場合、ジャックポットの 30%/15%/7.5% を獲得します。"
+      },
+      "streakWin": {
+        "title": "ストリークウィン",
+        "label": "5回目の勝利",
+        "desc": "5回連続で勝つと、追加のボーナスを獲得できます"
+      },
+      "streakLoss": {
+        "title": "ストリークロス",
+        "label": "5回目の敗北",
+        "desc": "5回連続で負けた場合、4回目のベット額を受け取ります"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "保存",
+    "btn_play": "今すぐプレイ",
+    "btn_claim": "受け取る",
+    "btn_stake": "今すぐステーキング",
+    "btn_unstake": "アンステーク",
+    "profit": "保留中の利益",
+    "wallet_confirm": "ウォレットで確認",
+    "require_bet_amount": "ベット額が必要です",
+    "require_bet_amount_msg": "ベット額を入力してください",
+    "require_bet_option": "ベットオプションが必要です",
+    "require_bet_option_msg": "ベットオプションを選択してください",
+    "copy_address": "アドレスをコピー",
+    "success": "成功",
+    "tx_success": "取引成功",
+    "tx_fail": "取引失敗",
+    "tx_view": "取引を表示",
+    "form_saved": "変更が保存されました",
+    "form_saved_fail": "変更の保存に失敗しました",
+    "upload_fail": "アップロードに失敗しました",
+    "title_bet": "ベット",
+    "field_bet_amount": "ベット額",
+    "field_stake": "ステー",
+    "field_stake_amount": "ステーク額",
+    "field_nickname": "ニックネーム",
+    "field_address": "アドレス"
+  },
+  "share": {
+    "copy_link": "リンクをコピー",
+    "copy_success": "コピー成功",
+    "share_on": "シェアする",
+    "share_text": "🚀 CoinLucks で運を試してみて！\n💎 このリンクをチェックしてビッグプライズを手に入れよう！\n{tags}\n"
+  },
+  "pool": {
+    "pools": "プール",
+    "jackpot_pool": "ジャックポットプール",
+    "staking_pool": "ステーキングプール",
+    "staking_pool_desc": "{token}をステーキングして報酬を得る、ゲーム料金収益の30%がステーカーに分配されます。",
+    "total_staked": "総ステーク額",
+    "how_it_work": "仕組み",
+    "my_stake": "私のステーキング",
+    "field": {
+      "balance": "残高",
+      "balance_tip": "ステーキングプールの残高",
+      "rewards": "報酬",
+      "rewards_tip": "受け取った報酬の合計",
+      "distributed": "配布済み",
+      "distributed_tip": "配布された報酬の合計",
+      "apr": "APR (14日間)",
+      "apr_tip": "{amount} {token}をステーキングして、14日間で{yield}%のリターンを得る",
+      "yield": "14日間のリターン",
+      "yield_tip": "{amount} {token}をステーキングして、14日間で{yield}%のリターンを得る",
+      "yield_amount": "リターン額",
+      "stake_amount": "ステーク額",
+      "stake_for": "ためにステーク",
+      "est_reward_received": "プールの推定総報酬",
+      "pending_reward": "保留中の報酬",
+      "auto_compound": "自動複利",
+      "share_of_pool": "プールのシェア",
+      "unlocked": "アンロック済み",
+      "unlock_in": "解除まで",
+      "unlock_in_tip": "7日間のステーキングロック期間。早期アンステーク手数料は5％です。"
+    },
+    "note": {
+      "note1": "計算は報酬プールに基づいています。",
+      "note2": "ステーキング報酬は14日ごとに線形で分配されます。",
+      "note3": "早期アンステーキング手数料：ステーキング期間が7日未満の場合、報酬に5%の手数料が適用されます。",
+      "note4": "すべての数字は参考値として提供されており、保証されたリターンを示すものではありません。"
+    }
+  },
+  "referral": {
+    "title": "<span>友達</span> を招待して、報酬を獲得しよう！",
+    "sub_title": "紹介した友達の支払い手数料の 25% を獲得できます。",
+    "instanct_payout": "即時払い",
+    "two_tier_reward": "2段階報酬",
+    "commission_rate": "24% + 1% のコミッションレート",
+    "how_to_invite": "招待方法",
+    "tab_refer": "招待 & 報酬",
+    "tab_leaderboard": "リーダーボード",
+    "referral_link": "あなたの紹介リンク",
+    "friends_referred": "紹介した友達",
+    "friends_referred_tip": "Tier1/Tier2 友達",
+    "lifetime_rewards": "生涯報酬",
+    "recent_referree": "最近紹介された友達",
+    "joined_time": "参加時間",
+    "referree": "紹介された友達",
+    "purchase": "購入",
+    "earn": "獲得",
+    "date": "日付"
+  },
+  "account": {
+    "activity": "アクティビティ",
+    "wins": "勝利",
+    "bets": "ベット",
+    "total": "合計",
+    "wagered": "賭けた金額",
+    "winnings": "獲得金額",
+    "statistic": "統計",
+    "top_play_games": "最もプレイされたゲーム",
+    "bind_telegram": "Telegramアカウントをリンク"
+  }
+}

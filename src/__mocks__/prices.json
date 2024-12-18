@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ETH",
+        "price": "2269.39"
+    },
+    {
+        "name": "BNB",
+        "price": "297.8"
+    },
+    {
+        "name": "AVAX",
+        "price": "33.05"
+    },
+    {
+        "name": "USDC",
+        "price": "1"
+    },
+    {
+        "name": "WSOL",
+        "price": "100"
+    },
+    {
+        "name": "SOL",
+        "price": "100"
+    },
+    {
+        "name": "PEPE",
+        "price": "0.00000093"
+    },
+    {
+        "name": "MATIC",
+        "price": "1.5"
+    }
+]

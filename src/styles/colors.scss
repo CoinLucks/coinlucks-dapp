@@ -1,0 +1,95 @@
+// =====================
+// Brand colors 
+
+// $primarycolors
+// These are the colors used on the UI and represent the distinct identity of the product.
+$primary1: #FFFAEB;
+$primary2: #fff5D6;
+$primary3: #FFE285;
+$primary4: #FFD447;
+$primary5: #FFC60A;
+$primary6: #F5BC00;
+$primary7: #E0AC00;
+
+// $gradientcolors
+// These are the colors used on the UI and represent the distinct identity of the product.
+$gradient1: linear-gradient(83.71deg, #A070FF -15.41%, #D951D9 3.43%, #FA2EA9 31.27%, #FF1A76 71.52%, #FF3344 108.42%);
+$gradient2: linear-gradient(83.71deg, #00DE99 -15.41%, #17DE87 3.43%, #2EDD73 31.27%, #41DC5D 71.52%, #54DB43 108.42%);
+$gradient3: linear-gradient(83.96deg, #FAD620 -15.55%, #FACE1E 7.79%, #FACA2D 24.27%, #FAC020 42.92%, #FAAE0A 99.04%);
+$gradient4: linear-gradient(83.71deg, #A070FF -15.41%, #8873FF 3.43%, #6D75FF 31.27%, #4B76FE 71.52%, #0177FB 108.42%);
+$gradient5: linear-gradient(84.55deg, #E858E3 -15.48%, #E858E3 5.78%, #CF3FE4 26.76%, #B127E7 46.63%, #8A0EEB 76.32%, #5000EF 109.66%);
+$gradient6: linear-gradient(83.71deg, #696B8C -15.41%, #5D5F7C 3.43%, #51536C 31.27%, #46475D 71.52%, #3B3C4E 108.42%);
+
+
+// =====================
+// Neutral colors
+// The neutral key color is used to derive the roles of surface and background, as well as high emphasis text and icons.    
+$white: rgb(255, 255, 255);
+$gray1: #F3F4F6;
+$gray2: #E8E8ED;
+$gray3: #DCDDE5;
+$gray4: #D0D1DC;
+$gray5: #C5C6D3;
+$gray6: #B9BACA;
+$gray7: #AEAFC2;
+$gray8: #A2A3B9;
+$gray9: #9698B0;
+$gray10: #8B8CA7;
+$gray11: #7F819F;
+$gray12: #737596;
+$gray13: #696B8C;
+$gray14: #606280;
+$gray15: #585974;
+$gray16: #4F5069;
+$gray17: #46475D;
+$gray18: #3B3C4E;
+$gray19: #353546;
+$gray20: #2C2D3A;
+$gray21: #23242F;
+$gray22: #1A1B23;
+$gray23: #18181F;
+$gray24: #09090C;
+$black: #000000;
+
+// =====================
+// Additional colors
+
+// Information colors
+// Information colors are used in cases where additional annotations are needed for important content.
+$blue1: #EBF4FF;
+$blue2: #D6E9FF;
+$blue3: #9AC9FE;
+$blue4: #3492FE;
+$blue5: #0177FB;
+$blue6: #0172F4;
+$blue7: #0169DF;
+
+// Success colors
+// Success color represents positive actions, confirmations, or positive outcomes.
+$green1: #EFFCEE;
+$green2: #E0F8DD;
+$green3: #A2EB98;
+$green4: #73E265;
+$green5: #54DB43;
+$green6: #45D831;
+$green7: #3BCE27;
+
+// Warning colors
+// Warning colors indicate the need to take action and apply to icons, banners, and exception lists.
+$yellow1: #FFF6EB;
+$yellow2: #FFEDD6;
+$yellow3: #FFD199;
+$yellow4: #FFBF70;
+$yellow5: #FF9E26;
+$yellow6: #FF9A1F;
+$yellow7: #FF910A;
+
+// Error color
+// Error color indicates errors in components, such as invalid text in a text field or any destructive state that should grab users’ attention.
+$red1: #FFEBEC;
+$red2: #FFD6DA;
+$red3: #FFADB4;
+$red4: #FF6370;
+$red5: #FF4757;
+$red6: #FF3344;
+$red7: #FF1F31;

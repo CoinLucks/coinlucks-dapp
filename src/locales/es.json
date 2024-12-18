@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - Plataforma Justa para Ganar en Web3",
+    "description": "¡Prueba tu suerte y gana grandes premios!"
+  },
+  "menu": {
+    "all": "Todo",
+    "home": "Inicio",
+    "games": "Juegos",
+    "pools": "Fondos",
+    "referrals": "Referidos",
+    "account": "Cuenta",
+    "raffles": "Sorteos",
+    "instants": "Instantáneos",
+    "scratchers": "Rasca y Gana",
+    "flips": "Lanzamientos",
+    "more": "Más",
+    "winners": "Ganadores",
+    "about": "Acerca de",
+    "contact": "Contacto",
+    "features": "Características",
+    "staking": "Staking",
+    "jackpot": "Bote",
+    "streakBonus": "Bonificación por Racha",
+    "help": "Ayuda",
+    "docs": "Documentos",
+    "faq": "Preguntas Frecuentes",
+    "privicy_policy": "Política de Privacidad",
+    "terms_of_service": "Términos del Servicio"
+  },
+  "settings": {
+    "connect_button": "Conectar",
+    "locale_label": "Idiomas",
+    "theme_label": "Modo de Tema"
+  },
+  "common": {
+    "load_more": "Cargar Más",
+    "loading_more": "Cargando más...",
+    "no_data": "Sin Datos",
+    "coming_soon": "Próximamente"
+  },
+  "home": {
+    "title": "Prueba tu <span>suerte</span>, ¡gana grandes premios!",
+    "sub_title": "La plataforma justa para ganar en Web3 para la comunidad",
+    "fairness": "Justicia",
+    "transparency": "Transparencia",
+    "trustless": "Sin Confianza Necesaria",
+    "permissionless": "Sin Permisos",
+    "powered_by": "Desarrollado por"
+  },
+  "games": {
+    "quickgame": "Juegos Rápidos",
+    "instants": "Juegos Instantáneos",
+    "instants_desc": "Descubre tesoros ocultos, premios emocionantes te esperan",
+    "jackpot": "Bote",
+    "play": "Jugar",
+    "history": "Historial",
+    "stake": "Staking",
+    "CoinFlip": {
+      "name": "Lanzamiento de Moneda",
+      "desc": "¡Apuesta al BORDE y gana hasta <strong>48.25x</strong>!",
+      "option": {
+        "select": "Seleccionar opción",
+        "HEAD": "CARA",
+        "TAIL": "CRUZ",
+        "EDGE": "BORDE"
+      }
+    },
+    "DiceShake": {
+      "name": "Sacudida de Dados",
+      "desc": "¡Doble o Nada!"
+    },
+    "Scratch69": {
+      "name": "Rasca69",
+      "desc": "¡Hasta <strong>10000x</strong> en pagos!"
+    },
+    "list": {
+      "latest_winner": "Últimos Ganadores",
+      "title_date": "Fecha",
+      "title_player": "Jugador",
+      "title_game": "Juego",
+      "title_bet": "Apuesta",
+      "title_bet_amount": "Cantidad Apostada",
+      "title_payout": "Pago",
+      "title_bonus": "Bono",
+      "title_payback": "Devolución",
+      "title_stake": "Stakeado",
+      "title_earn": "Ganado",
+      "title_pending": "Pendiente",
+      "title_multiplier": "Multiplicador",
+      "title_times": "Veces",
+      "title_profit": "Ganancia",
+      "title_won": "Ganado",
+      "title_lost": "Perdido",
+      "title_winrate": "Tasa de Ganancias",
+      "title_chance": "Probabilidad de ganar",
+      "title_to_win": "para ganar",
+      "title_draw_number": "Sorteo",
+      "error_insufficient_balance": "Saldo insuficiente: Tienes",
+      "tab": {
+        "all": "Todas las Apuestas",
+        "my_bets": "Mis Apuestas",
+        "high_rollers": "Grandes Apostadores",
+        "rare_wins": "Ganancias Raras",
+        "jackpot": "Ganadores del Bote",
+        "streak_wins": "Rachas de Ganancia",
+        "top_player": "Mejor Jugador"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "Bono del Bote",
+        "DiceShake": "Si ganas una apuesta y el número sorteado es 42/69, ganarás el 30% del bote.",
+        "CoinFlip": "Si ganas una apuesta y el número sorteado es 69/420, ganarás el 30% del bote.",
+        "Scratch69": "Si ganas el Premio Mayor/Primero/Segundo, ganarás el 30%/15%/7.5% del bote."
+      },
+      "streakWin": {
+        "title": "Rachas de Ganancias",
+        "label": "En la 5ta ganancia",
+        "desc": "Recibirás un bono extra si ganas cinco veces consecutivas"
+      },
+      "streakLoss": {
+        "title": "Rachas de Pérdidas",
+        "label": "En la 5ta pérdida",
+        "desc": "Recibirás el monto de tu CUARTA apuesta si pierdes cinco veces consecutivas"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "Guardar",
+    "btn_play": "Jugar Ahora",
+    "btn_claim": "Reclamar",
+    "btn_stake": "Stakear Ahora",
+    "btn_unstake": "Deshacer Staking",
+    "profit": "Ganancias Pendientes",
+    "wallet_confirm": "Confirma en tu Cartera",
+    "require_bet_amount": "Se requiere cantidad para apostar",
+    "require_bet_amount_msg": "Por favor, ingresa una cantidad para apostar",
+    "require_bet_option": "Se requiere opción de apuesta",
+    "require_bet_option_msg": "Por favor, selecciona una opción de apuesta",
+    "copy_address": "Copiar Dirección",
+    "success": "Éxito",
+    "tx_success": "Transacción Exitosa",
+    "tx_fail": "Fallo en la Transacción",
+    "tx_view": "Ver Tx",
+    "form_saved": "Cambios Guardados",
+    "form_saved_fail": "Fallo al Guardar Cambios",
+    "upload_fail": "Fallo al Subir",
+    "title_bet": "Apuestas",
+    "field_bet_amount": "Cantidad Apostada",
+    "field_stake": "Cantidad",
+    "field_stake_amount": "Cantidad Apostada",
+    "field_nickname": "Apodo",
+    "field_address": "Dirección"
+  },
+  "share": {
+    "copy_link": "Copiar Enlace",
+    "copy_success": "Enlace Copiado",
+    "share_on": "Compartir en",
+    "share_text": "🚀 ¡Prueba tu suerte en CoinLucks!\n💎 ¡Mira el enlace y gana grandes premios!\n{tags}\n"
+  },
+  "pool": {
+    "pools": "Fondos",
+    "jackpot_pool": "Fondo del Bote",
+    "staking_pool": "Fondo de Staking",
+    "staking_pool_desc": "Apuesta {token} para ganar recompensas, con el 30% de los ingresos de las tarifas del juego distribuidos a los apostadores.",
+    "total_staked": "Total Apostado",
+    "how_it_work": "Cómo Funciona",
+    "my_stake": "Mi Staking",
+    "field": {
+      "balance": "Saldo",
+      "balance_tip": "Saldo en el Fondo de Staking",
+      "rewards": "Recompensas",
+      "rewards_tip": "Recompensas Totales Recibidas",
+      "distributed": "Distribuido",
+      "distributed_tip": "Recompensas Totales Distribuidas",
+      "apr": "APR (14 días)",
+      "apr_tip": "Apuesta {amount} {token} para ganar un rendimiento del {yield}% durante 14 días",
+      "yield": "Rendimiento de 14 días",
+      "yield_tip": "Apuesta {amount} {token} para ganar un rendimiento del {yield}% durante 14 días",
+      "yield_amount": "Cantidad de Rendimiento",
+      "stake_amount": "Cantidad Stakeada",
+      "stake_for": "Apostar por",
+      "est_reward_received": "Recompensas Estimadas del Pool",
+      "pending_reward": "Recompensas Pendientes",
+      "auto_compound": "Auto Composición",
+      "share_of_pool": "Participación en el Fondo",
+      "unlocked": "Desbloqueado",
+      "unlock_in": "Se desbloquea en",
+      "unlock_in_tip": "Período de bloqueo de 7 días en Staking. La tarifa por desbloqueo anticipado es del 5%."
+    },
+    "note": {
+      "note1": "Los cálculos se basan en el pool de recompensas.",
+      "note2": "Las recompensas de staking se distribuyen de manera lineal durante cada período de 14 días.",
+      "note3": "Tarifa de Desapuesta Temprana: Se aplica una tarifa del 5% sobre las recompensas si el staking es inferior a 7 días.",
+      "note4": "Todas las cifras son estimaciones proporcionadas solo para su conveniencia y no representan rendimientos garantizados."
+    }
+  },
+  "referral": {
+    "title": "Invita a <span>amigos</span>, ¡gana recompensas!",
+    "sub_title": "Gana el 25% de todas las tarifas de pago de cada amigo que refieras.",
+    "instanct_payout": "Pagos Instantáneos",
+    "two_tier_reward": "Recompensas de Dos Niveles",
+    "commission_rate": "Tasa de Comisión del 24% + 1%",
+    "how_to_invite": "Cómo Invitar",
+    "tab_refer": "Referir y Ganar",
+    "tab_leaderboard": "Tabla de Clasificación",
+    "referral_link": "Tu enlace de referido",
+    "friends_referred": "Amigos referidos",
+    "friends_referred_tip": "Amigos Nivel 1/Nivel 2",
+    "lifetime_rewards": "Recompensas de por vida",
+    "recent_referree": "Referido Reciente",
+    "joined_time": "Tiempo de unión",
+    "referree": "Referido",
+    "purchase": "Compra",
+    "earn": "Ganancia",
+    "date": "Fecha"
+  },
+  "account": {
+    "activity": "Actividad",
+    "wins": "Ganadas",
+    "bets": "Apuestas",
+    "total": "Total",
+    "wagered": "Apostado",
+    "winnings": "Ganancias",
+    "statistic": "Estadística",
+    "top_play_games": "Juegos Más Jugados",
+    "bind_telegram": "Vincular Cuenta de Telegram"
+  }
+}

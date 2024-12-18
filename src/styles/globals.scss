@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts.scss';
+@import './colors.scss';
+
+:root {
+
+  --left-nav-lg: '248px';
+  --left-nav-md: '64px';
+
+  --foreground-rgb: 0, 0, 0;
+  --background-rgb: 255, 255, 255;
+
+  --gradient-red: linear-gradient(84deg,#A070FF_-15.41%,#D951D9_3.43%,#FA2EA9_31.27%,#FF1A76_71.52%,#F34_108.42%);
+
+}
+
+[data-theme="dark"],.dark {
+
+  --foreground-rgb: 255, 255, 255;
+  --background-rgb: 24, 24, 31;
+
+}
+
+// common styles
+body {
+  @include rubik;
+  color: rgb(var(--foreground-rgb));
+}
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@keyframes rainbow-border {
+  0% {
+    border-color: #FF3344; 
+  }
+  20% {
+    border-color: #FFBF70;
+  }
+  40% {
+    border-color: #FAAE0A;
+  }
+  // 60% {
+  //   border-color: #54DB43; 
+  // }
+  80% {
+    border-color: #0177FB; 
+  }
+  100% {
+    border-color: #8A0EEB; 
+  }
+}
+
+.animate-rainbow-border {
+  animation: rainbow-border 1s linear infinite;
+}
+

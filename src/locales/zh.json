@@ -1,0 +1,231 @@
+{
+  "site": {
+    "name": "CoinLucks",
+    "title": "CoinLucks - 公平透明的 Web3 社区竞赢平台",
+    "description": "试试手气，大奖触手可及!"
+  },
+  "menu": {
+    "all": "全部",
+    "home": "主页",
+    "games": "游戏",
+    "pools": "流动池",
+    "referrals": "推荐",
+    "account": "账号",
+    "raffles": "抽奖",
+    "instants": "即时游戏",
+    "scratchers": "刮刮乐",
+    "flips": "翻翻乐",
+    "more": "更多",
+    "winners": "中奖结果",
+    "about": "关于",
+    "contact": "联系我们",
+    "features": "功能",
+    "staking": "质押",
+    "jackpot": "奖池",
+    "streakBonus": "连胜奖励",
+    "help": "帮助",
+    "docs": "文档",
+    "faq": "常见问题",
+    "privicy_policy": "隐私政策",
+    "terms_of_service": "服务条款"
+  },
+  "settings": {
+    "connect_button": "连接钱包",
+    "locale_label": "多语言",
+    "theme_label": "主题"
+  },
+  "common": {
+    "load_more": "加载更多",
+    "loading_more": "加载中...",
+    "no_data": "暂无数据",
+    "coming_soon": "敬请期待"
+  },
+  "home": {
+    "title": "试试手气，大奖触手可及!",
+    "sub_title": "公平透明的 Web3 社区竞赢平台",
+    "fairness": "公平公正",
+    "transparency": "公开透明",
+    "trustless": "无需信任",
+    "permissionless": "无门槛许可",
+    "powered_by": "技术支持"
+  },
+  "games": {
+    "quickgame": "快速游戏",
+    "instants": "即时游戏",
+    "instants_desc": "揭开隐藏的宝藏，精彩大奖正等待着你！",
+    "jackpot": "奖池",
+    "play": "立即参与",
+    "history": "历史记录",
+    "stake": "质押",
+    "CoinFlip": {
+      "name": "抛硬币",
+      "desc": "投注立面，高达<strong>48.25 倍</strong>收益！",
+      "option": {
+        "select": "请选择",
+        "HEAD": "正面",
+        "TAIL": "反面",
+        "EDGE": "立面"
+      }
+    },
+    "DiceShake": {
+      "name": "摇色子",
+      "desc": "翻倍或清零!"
+    },
+    "Scratch69": {
+      "name": "刮乐69",
+      "desc": "高达<strong>10000 倍</strong>收益!"
+    },
+    "list": {
+      "latest_winner": "最近中奖",
+      "title_date": "日期",
+      "title_player": "玩家",
+      "title_game": "游戏",
+      "title_bet": "投注",
+      "title_bet_amount": "投注金额",
+      "title_payout": "奖金",
+      "title_bonus": "奖励",
+      "title_payback": "返还",
+      "title_stake": "质押",
+      "title_earn": "赚取",
+      "title_pending": "待领取",
+      "title_multiplier": "倍数",
+      "title_times": "次数",
+      "title_profit": "利润",
+      "title_won": "胜",
+      "title_lost": "负",
+      "title_winrate": "胜率",
+      "title_chance": "获胜概率",
+      "title_to_win": "赢取",
+      "title_draw_number": "开奖号码",
+      "error_insufficient_balance": "余额不足: 你有",
+      "tab": {
+        "all": "全部投注",
+        "my_bets": "我的投注",
+        "high_rollers": "大额玩家",
+        "rare_wins": "高赔率",
+        "jackpot": "累计奖池",
+        "streak_wins": "连胜榜",
+        "top_player": "顶级玩家"
+      }
+    },
+    "features": {
+      "jackpot": {
+        "title": "瓜分奖池",
+        "CoinFlip": "如果你赢得投注并且抽奖号码是69或420, 将额外获得奖池的30%",
+        "DiceShake": "如果你赢得投注并且抽奖号码是42或69, 将额外获得奖池的30%",
+        "Scratch69": "如果你赢得 特等奖/一等奖/二等奖, 将额外获得奖池的 30% / 15% / 7.5% "
+      },
+      "streakWin": {
+        "title": "连胜奖励",
+        "label": "连胜5局时",
+        "desc": "连胜5局, 将获得额外奖励"
+      },
+      "streakLoss": {
+        "title": "连输奖励",
+        "label": "连输5局时",
+        "desc": "连输5局, 将获得第四局的投注金额返还"
+      }
+    }
+  },
+  "form": {
+    "btn_save": "保存",
+    "btn_play": "立即参与",
+    "btn_claim": "领取收益",
+    "btn_stake": "立即质押",
+    "btn_unstake": "取回质押",
+    "profit": "待领取收益",
+    "wallet_confirm": "请在钱包确认",
+    "require_bet_amount": "投注金额不能空",
+    "require_bet_amount_msg": "请输入投注金额",
+    "require_bet_option": "投注选项不能空",
+    "require_bet_option_msg": "请选择投注选项",
+    "copy_address": "复制钱包地址",
+    "success": "成功",
+    "tx_success": "提交成功",
+    "tx_fail": "提交失败",
+    "tx_view": "查看交易",
+    "form_saved": "已保存",
+    "form_saved_fail": "保存失败",
+    "upload_fail": "上传失败",
+    "title_bet": "投注",
+    "field_bet_amount": "投注金额",
+    "field_stake": "质押",
+    "field_stake_amount": "质押金额",
+    "field_nickname": "昵称",
+    "field_address": "钱包地址"
+  },
+  "share": {
+    "copy_link": "复制链接",
+    "copy_success": "复制成功",
+    "share_on": "分享到",
+    "share_text": "🚀 到CoinLucks试试你的手气!\n💎 查看链接，来赢取大奖!\n{tags}\n"
+  },
+  "pool": {
+    "pools": "流动性池",
+    "jackpot_pool": "累积奖池",
+    "staking_pool": "质押池",
+    "staking_pool_desc": "质押{token}以获得奖励, 30%的游戏费用收入将分配给质押者",
+    "total_staked": "总质押",
+    "how_it_work": "如何运作",
+    "my_stake": "我的质押",
+    "field": {
+      "balance": "余额",
+      "balance_tip": "已质押金额",
+      "rewards": "奖励",
+      "rewards_tip": "总质押奖励",
+      "distributed": "已分配",
+      "distributed_tip": "已分配奖励",
+      "apr": "APR (14 天)",
+      "apr_tip": "质押{amount} {token}以获得{yield}%的14天收益",
+      "yield": "14天收益",
+      "yield_tip": "质押{amount} {token}以获得{yield}%的14天收益",
+      "yield_amount": "收益金额",
+      "stake_amount": "质押金额",
+      "stake_for": "质押时长",
+      "est_reward_received": "预计总奖励池收益",
+      "pending_reward": "待领取奖励",
+      "auto_compound": "自动复投",
+      "share_of_pool": "份额占比",
+      "unlocked": "已解锁",
+      "unlock_in": "锁定期",
+      "unlock_in_tip": "每次质押有7天锁定期, 提前取回扣取5%手续费"
+    },
+    "note": {
+      "note1": "计算基于奖励池。",
+      "note2": "质押奖励将在每个14天的周期内线性分配。",
+      "note3": "提前撤回手续费：若质押不足7天，奖励将收取5%的手续费。",
+      "note4": "所有数字仅为估算，供参考使用，并不代表保证回报。"
+    }
+  },
+  "referral": {
+    "title": "邀请 <span>好友</span>, 赚取奖励!",
+    "sub_title": "从被推荐人的每次交易手续费中赚取高达25%的佣金.",
+    "instanct_payout": "奖励即时发放",
+    "two_tier_reward": "二级邀请机制",
+    "commission_rate": "24% + 1% 佣金比例",
+    "how_to_invite": "如何邀请",
+    "tab_refer": "我的",
+    "tab_leaderboard": "排行榜",
+    "referral_link": "你的推荐链接",
+    "friends_referred": "已邀请",
+    "friends_referred_tip": "一级邀请/二级邀请",
+    "lifetime_rewards": "累计奖励",
+    "recent_referree": "最近邀请",
+    "joined_time": "加入时间",
+    "referree": "受邀人",
+    "purchase": "支付",
+    "earn": "奖励",
+    "date": "日期"
+  },
+  "account": {
+    "activity": "活动",
+    "wins": "中奖",
+    "bets": "投注",
+    "total": "累计",
+    "wagered": "投注金额",
+    "winnings": "中奖金额",
+    "statistic": "统计",
+    "top_play_games": "常玩游戏",
+    "bind_telegram": "绑定Telegram账号"
+  }
+}

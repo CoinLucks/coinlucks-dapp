@@ -1,0 +1,2521 @@
+[
+    {
+        "id": 24210,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 3,
+        "name": "100 WSOL",
+        "joinState": "Joined",
+        "description": "FREE TO ENTER! Enter NOW for your chance to win 100 Wrapped SOL!  <br><br>Plus! Get 2.5% of your entry cost (excluding gas) as playable ETH directly into your MetaWin Balance!",
+        "imageUrl": "https://content.prod.platform.metawin.com/competitions/SOL.png",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "animation",
+                "url": "https://content.prod.platform.metawin.com/competitions/SOL.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/competitions/SOL.png"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 47526,
+                "type": "StakedToken",
+                "amount": "100",
+                "name": "WSOL",
+                "symbolOrCollection": "WSOL",
+                "contractAddress": "0xD31a59c85aE9D8edEFeC411D448f90841571b89c",
+                "decimals": 9,
+                "quantity": 1,
+                "rank": 1,
+                "staked": true,
+                "reward": false,
+                "verify": true,
+                "imageUrl": "https://content.prod.platform.metawin.com/competitions/SOL.png",
+                "animationUrl": "https://content.prod.platform.metawin.com/competitions/SOL.mp4"
+            }
+        ],
+        "entryPackageType": "Standard",
+        "price": {
+            "price": "0.002",
+            "currencyCode": "ETH",
+            "hasFree": true,
+            "maxPerUser": 0
+        },
+        "prices": [
+            {
+                "id": 89984,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "80",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 89985,
+                "type": "Standard",
+                "tickets": 20,
+                "price": "0.01",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "80",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 89986,
+                "type": "Standard",
+                "tickets": 62,
+                "price": "0.03",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "80",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 89987,
+                "type": "Standard",
+                "tickets": 190,
+                "price": "0.09",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "80",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 89988,
+                "type": "Standard",
+                "tickets": 600,
+                "price": "0.27",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "80",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 1,
+            "name": "crypto",
+            "label": "Featured",
+            "createTime": "2022-10-14T09:09:12.104Z",
+            "updateTime": "2023-09-03T08:22:35.000Z"
+        },
+        "tickets": 4042,
+        "ticketsFree": 188,
+        "ticketsPaid": 3854,
+        "participants": 218,
+        "participantsFree": 178,
+        "participantsPaid": 40,
+        "metadata": {
+            "basePriceOverride": 0.0005,
+            "hideEntriesCount": true,
+            "labelText": "2.5% ETH Reward",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 2000x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-24T12:49:28.000Z",
+        "openTime": "2024-01-24T12:49:29.000Z",
+        "closeTime": "2024-01-29T21:00:00.000Z",
+        "drawTime": "2024-01-31T08:40:00.000Z",
+        "blockchain": {
+            "chainId": 1,
+            "raffleId": "80",
+            "contract": {
+                "type": "Standard",
+                "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "StakedToken"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": true,
+                "x": "coinlucks"
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24211,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "joinState": "",
+        "status": 4,
+        "name": "5 ETH",
+        "description": "FREE TO ENTER! Enter NOW for your chance to win 5 ETH!  <br><br>Plus! Get 2.5% of your entry cost (excluding gas) as playable ETH directly into your MetaWin Balance!",
+        "imageUrl": "https://content.prod.platform.metawin.com/competitions/neweth.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "animation",
+                "url": "https://content.prod.platform.metawin.com/competitions/Eth.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/competitions/neweth.jpg"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 47527,
+                "type": "StakedCash",
+                "currencyCode": "ETH",
+                "amount": "5",
+                "quantity": 1,
+                "rank": 1,
+                "staked": true,
+                "reward": false,
+                "imageUrl": "https://content.prod.platform.metawin.com/competitions/neweth.jpg",
+                "animationUrl": "https://content.prod.platform.metawin.com/competitions/Eth.mp4"
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 89989,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "155",
+                    "contract": {
+                        "address": "0x628015A6f2e6da491Ad572210C264107DB294f6E",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 89990,
+                "type": "Standard",
+                "tickets": 20,
+                "price": "0.01",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "155",
+                    "contract": {
+                        "address": "0x628015A6f2e6da491Ad572210C264107DB294f6E",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 89991,
+                "type": "Standard",
+                "tickets": 62,
+                "price": "0.03",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "155",
+                    "contract": {
+                        "address": "0x628015A6f2e6da491Ad572210C264107DB294f6E",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 89992,
+                "type": "Standard",
+                "tickets": 190,
+                "price": "0.09",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "155",
+                    "contract": {
+                        "address": "0x628015A6f2e6da491Ad572210C264107DB294f6E",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 89993,
+                "type": "Standard",
+                "tickets": 600,
+                "price": "0.27",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "155",
+                    "contract": {
+                        "address": "0x628015A6f2e6da491Ad572210C264107DB294f6E",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 1,
+            "name": "crypto",
+            "label": "Featured",
+            "createTime": "2022-10-14T09:09:12.104Z",
+            "updateTime": "2023-09-03T08:22:35.000Z"
+        },
+        "tickets": 1985,
+        "ticketsFree": 179,
+        "ticketsPaid": 1806,
+        "participants": 214,
+        "participantsFree": 161,
+        "participantsPaid": 53,
+        "metadata": {
+            "hideEntriesCount": true,
+            "labelText": "2.5% ETH Reward",
+            "packageConfirmation": 0,
+            "rewardPercentage": 2.5,
+            "basePriceOverride": 0.0005,
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 2000x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-24T21:00:00.000Z",
+        "openTime": "2024-01-24T21:00:00.000Z",
+        "closeTime": "2024-01-30T21:00:00.000Z",
+        "drawTime": "2024-01-30T21:00:00.000Z",
+        "blockchain": {
+            "chainId": 56,
+            "raffleId": "155",
+            "contract": {
+                "type": "Standard",
+                "address": "0x628015A6f2e6da491Ad572210C264107DB294f6E",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "StakedCash"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false,
+        "winners": [
+            {
+                "number": 32013,
+                "userId": 2250,
+                "tx": "0xddf",
+                "name": "Beznik",
+                "avatar": "https://content.prod.platform.metawin.com/avatars/template/default.png"
+            }
+        ]
+    },
+    {
+        "id": 24428,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "11,000 USDC",
+        "description": "Enter NOW for your chance to win 11,000 USDC!\n<br><br>\nPlus! Get 2.5% of your entry cost (excluding gas) as playable ETH directly into your MetaWin Balance!",
+        "imageUrl": "https://content.prod.platform.metawin.com/games/USDC00.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "animation",
+                "url": "https://content.prod.platform.metawin.com/games/Usdc.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/games/USDC00.jpg"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48154,
+                "type": "StakedToken",
+                "amount": "11000",
+                "name": "USDC",
+                "symbolOrCollection": "USDC",
+                "contractAddress": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+                "decimals": 6,
+                "quantity": 1,
+                "rank": 1,
+                "staked": true,
+                "reward": false,
+                "imageUrl": "https://content.prod.platform.metawin.com/games/USDC00.jpg",
+                "animationUrl": "https://content.prod.platform.metawin.com/games/Usdc.mp4"
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90869,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "81",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90870,
+                "type": "Standard",
+                "tickets": 20,
+                "price": "0.01",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "81",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90871,
+                "type": "Standard",
+                "tickets": 62,
+                "price": "0.03",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "81",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90872,
+                "type": "Standard",
+                "tickets": 190,
+                "price": "0.09",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "81",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90873,
+                "type": "Standard",
+                "tickets": 600,
+                "price": "0.27",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "81",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 1,
+            "name": "crypto",
+            "label": "Featured",
+            "createTime": "2022-10-14T09:09:12.104Z",
+            "updateTime": "2023-09-03T08:22:35.000Z"
+        },
+        "tickets": 873,
+        "ticketsFree": 105,
+        "ticketsPaid": 768,
+        "participants": 122,
+        "participantsFree": 98,
+        "participantsPaid": 24,
+        "metadata": {
+            "hideEntriesCount": true,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5,
+            "basePriceOverride": 0.0005,
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 2000x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-26T16:11:19.000Z",
+        "openTime": "2024-01-26T16:11:20.000Z",
+        "closeTime": "2024-01-31T21:00:00.000Z",
+        "drawTime": "2024-01-31T21:00:00.000Z",
+        "blockchain": {
+            "chainId": 1,
+            "raffleId": "81",
+            "contract": {
+                "type": "Standard",
+                "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "StakedToken"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24413,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "LilPudgys",
+        "description": "Lil Pudgys is a collection of 22,222 NFTs originating from Pudgy Penguins. Don’t let their small stature fool you, Lil Pudgys are an integral piece of the Pudgy Penguins history. Their story began during the most frigid of winters. In the midst of adversity, the birth of the Lil Pudgys helped spark new-life into the Pudgy Penguins community.\n\n\n",
+        "imageUrl": "https://i.seadn.io/gcs/files/dfb145244140d31b03ddf0763656bfe9.png?auto=format&dpr=1&w=384",
+        "assets": [
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://i.seadn.io/gcs/files/dfb145244140d31b03ddf0763656bfe9.png?auto=format&dpr=1&w=384"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48113,
+                "type": "NFT",
+                "name": "Lil Pudgy #8735",
+                "shortName": "LP8735",
+                "imageUrl": "https://i.seadn.io/gcs/files/dfb145244140d31b03ddf0763656bfe9.png?auto=format&dpr=1&w=384",
+                "contractAddress": "0x524cab2ec69124574082676e6f654a18df49a048",
+                "standard": "ERC721",
+                "tokenId": "8735",
+                "staked": true,
+                "value": "1.87",
+                "symbolOrCollection": "lilpudgys",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90807,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1791",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90808,
+                "type": "Standard",
+                "tickets": 8,
+                "price": "0.006",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1791",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90809,
+                "type": "Standard",
+                "tickets": 26,
+                "price": "0.018",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1791",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90810,
+                "type": "Standard",
+                "tickets": 120,
+                "price": "0.078",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1791",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90811,
+                "type": "Standard",
+                "tickets": 300,
+                "price": "0.18",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1791",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 18,
+            "name": "nfts",
+            "label": "NFTs",
+            "createTime": "2023-05-30T14:18:25.920Z",
+            "updateTime": "2023-10-18T14:25:24.000Z"
+        },
+        "tickets": 816,
+        "ticketsFree": 36,
+        "ticketsPaid": 780,
+        "participants": 49,
+        "participantsFree": 30,
+        "participantsPaid": 19,
+        "metadata": {
+            "hideEntriesCount": "TRUE",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 25x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "basePriceOverride": 0.0012,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-27T01:00:00.000Z",
+        "openTime": "2024-01-27T01:00:00.000Z",
+        "closeTime": "2024-01-30T01:00:00.000Z",
+        "drawTime": "2024-01-30T01:00:00.000Z",
+        "blockchain": {
+            "chainId": 56,
+            "raffleId": "1791",
+            "contract": {
+                "type": "Standard",
+                "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "NFT"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24410,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Cool Cats",
+        "description": "Cool Cats is a collection of 9,999 randomly generated and stylistically curated NFTs that exist on the Ethereum Blockchain. Cool Cat holders can participate in exclusive events such as NFT claims, raffles, community giveaways, and more. Remember, all cats are cool, but some are cooler than others.\n\n\n\n",
+        "imageUrl": "https://i.seadn.io/gcs/files/e38f67baed71df3788d72ce47a66d5c4.png?auto=format&dpr=1&w=1000",
+        "assets": [
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://i.seadn.io/gcs/files/e38f67baed71df3788d72ce47a66d5c4.png?auto=format&dpr=1&w=1000"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48110,
+                "type": "NFT",
+                "name": "Cool Cat #4547",
+                "shortName": "CC4547",
+                "imageUrl": "https://i.seadn.io/gcs/files/e38f67baed71df3788d72ce47a66d5c4.png?auto=format&dpr=1&w=1000",
+                "contractAddress": "0x1a92f7381b9f03921564a437210bb9396471050c",
+                "standard": "ERC721",
+                "tokenId": "4547",
+                "staked": true,
+                "value": "1.3",
+                "symbolOrCollection": "cool-cats-nft",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90792,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1792",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90793,
+                "type": "Standard",
+                "tickets": 8,
+                "price": "0.006",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1792",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90794,
+                "type": "Standard",
+                "tickets": 26,
+                "price": "0.018",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1792",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90795,
+                "type": "Standard",
+                "tickets": 120,
+                "price": "0.078",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1792",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90796,
+                "type": "Standard",
+                "tickets": 300,
+                "price": "0.18",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1792",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 18,
+            "name": "nfts",
+            "label": "NFTs",
+            "createTime": "2023-05-30T14:18:25.920Z",
+            "updateTime": "2023-10-18T14:25:24.000Z"
+        },
+        "tickets": 463,
+        "ticketsFree": 39,
+        "ticketsPaid": 424,
+        "participants": 52,
+        "participantsFree": 34,
+        "participantsPaid": 18,
+        "metadata": {
+            "hideEntriesCount": "TRUE",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 25x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "basePriceOverride": 0.0012,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-27T08:00:00.000Z",
+        "openTime": "2024-01-27T08:00:00.000Z",
+        "closeTime": "2024-01-29T08:00:00.000Z",
+        "drawTime": "2024-01-29T08:00:00.000Z",
+        "blockchain": {
+            "chainId": 137,
+            "raffleId": "1792",
+            "contract": {
+                "type": "Standard",
+                "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "NFT"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24409,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Moonbirds",
+        "description": "Moonbirds is the art collector’s PFP. Each of the 10,000 digital artworks in the collection grants holders access to unique experiences to connect with artists and own and champion their art. As a community, Moonbirds is a home for creatives, dreamers, and collectors seeking real connection as we all contribute to the future of web3 art, culture, and technology.\n\n\n\n\n",
+        "imageUrl": "https://raw.seadn.io/files/884903636985325b316f8980553d7d10.bin",
+        "assets": [
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://raw.seadn.io/files/884903636985325b316f8980553d7d10.bin"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48109,
+                "type": "NFT",
+                "name": "Moonbird #8518",
+                "shortName": "MB8518",
+                "imageUrl": "https://raw.seadn.io/files/884903636985325b316f8980553d7d10.bin",
+                "contractAddress": "0x23581767a106ae21c074b2276d25e5c3e136a68b",
+                "standard": "ERC721",
+                "tokenId": "8518",
+                "staked": true,
+                "value": "1.1659",
+                "symbolOrCollection": "proof-moonbirds",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90787,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1789",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90788,
+                "type": "Standard",
+                "tickets": 8,
+                "price": "0.006",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1789",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90789,
+                "type": "Standard",
+                "tickets": 26,
+                "price": "0.018",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1789",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90790,
+                "type": "Standard",
+                "tickets": 120,
+                "price": "0.078",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1789",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90791,
+                "type": "Standard",
+                "tickets": 300,
+                "price": "0.18",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1789",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 18,
+            "name": "nfts",
+            "label": "NFTs",
+            "createTime": "2023-05-30T14:18:25.920Z",
+            "updateTime": "2023-10-18T14:25:24.000Z"
+        },
+        "tickets": 268,
+        "ticketsFree": 22,
+        "ticketsPaid": 246,
+        "participants": 28,
+        "participantsFree": 18,
+        "participantsPaid": 10,
+        "metadata": {
+            "hideEntriesCount": "TRUE",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 25x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "basePriceOverride": 0.0012,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-27T15:00:00.000Z",
+        "openTime": "2024-01-27T15:00:00.000Z",
+        "closeTime": "2024-01-29T15:00:00.000Z",
+        "drawTime": "2024-01-29T15:00:00.000Z",
+        "blockchain": {
+            "chainId": 43113,
+            "raffleId": "1789",
+            "contract": {
+                "type": "Standard",
+                "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "NFT"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24430,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "5 BILLION PEPE",
+        "description": "The most memorable memecoin in existence is at MetaWin. <strong>FREE TO ENTER</strong> 5 Billion PEPE! <br><br>Plus! Get 2.5% of your entry cost (excluding gas) as playable ETH directly into your MetaWin Balance!",
+        "imageUrl": "https://content.prod.platform.metawin.com/competitions/PEPE00.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "animation",
+                "url": "https://content.prod.platform.metawin.com/competitions/PepeNew.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/competitions/PEPE00.jpg"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48158,
+                "type": "StakedToken",
+                "amount": "5000000000",
+                "name": "PEPE",
+                "symbolOrCollection": "PEPE",
+                "contractAddress": "0x6982508145454Ce325dDbE47a25d4ec3d2311933",
+                "decimals": 18,
+                "quantity": 1,
+                "rank": 1,
+                "staked": true,
+                "reward": false,
+                "imageUrl": "https://content.prod.platform.metawin.com/competitions/PEPE00.jpg",
+                "animationUrl": "https://content.prod.platform.metawin.com/competitions/PepeNew.mp4"
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90878,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "82",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90879,
+                "type": "Standard",
+                "tickets": 20,
+                "price": "0.01",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "82",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90880,
+                "type": "Standard",
+                "tickets": 62,
+                "price": "0.03",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "82",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90881,
+                "type": "Standard",
+                "tickets": 190,
+                "price": "0.09",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "82",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90882,
+                "type": "Standard",
+                "tickets": 600,
+                "price": "0.27",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "82",
+                    "contract": {
+                        "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 1,
+            "name": "crypto",
+            "label": "Featured",
+            "createTime": "2022-10-14T09:09:12.104Z",
+            "updateTime": "2023-09-03T08:22:35.000Z"
+        },
+        "tickets": 263,
+        "ticketsFree": 39,
+        "ticketsPaid": 224,
+        "participants": 45,
+        "participantsFree": 38,
+        "participantsPaid": 7,
+        "metadata": {
+            "basePriceOverride": 0.0005,
+            "hideEntriesCount": true,
+            "labelText": "2.5% ETH Reward",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 2000x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "rewardPercentage": 2.5,
+            "packageEmailItem": 1
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-27T21:00:00.000Z",
+        "openTime": "2024-01-27T21:00:00.000Z",
+        "closeTime": "2024-02-03T21:00:00.000Z",
+        "drawTime": "2024-02-03T21:00:00.000Z",
+        "blockchain": {
+            "chainId": 1,
+            "raffleId": "82",
+            "contract": {
+                "type": "Standard",
+                "address": "0x96FD442b9402d47e83714C9075D446d34c37776F",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "StakedToken"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24414,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Bored Ape Kennel Club",
+        "description": "It gets lonely in the swamp sometimes. That's why every ape should have a four-legged companion. To curl up at your feet. To bring you a beer. To fire a missile launcher at Jimmy the Monkey.\n\n\n",
+        "imageUrl": "https://i.seadn.io/gcs/files/18a03c124355a92c77eb03cab1d9372e.png?auto=format&dpr=1&w=384",
+        "assets": [
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://i.seadn.io/gcs/files/18a03c124355a92c77eb03cab1d9372e.png?auto=format&dpr=1&w=384"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48114,
+                "type": "NFT",
+                "name": "Bored Ape Kennel Club #4283",
+                "shortName": "BAKC4283",
+                "imageUrl": "https://i.seadn.io/gcs/files/18a03c124355a92c77eb03cab1d9372e.png?auto=format&dpr=1&w=384",
+                "contractAddress": "0xba30e5f9bb24caa003e9f2f0497ad287fdf95623",
+                "standard": "ERC721",
+                "tokenId": "4283",
+                "staked": true,
+                "value": "1.432",
+                "symbolOrCollection": "bored-ape-kennel-club",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90812,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1787",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90813,
+                "type": "Standard",
+                "tickets": 8,
+                "price": "0.006",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1787",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90814,
+                "type": "Standard",
+                "tickets": 26,
+                "price": "0.018",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1787",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90815,
+                "type": "Standard",
+                "tickets": 120,
+                "price": "0.078",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1787",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90816,
+                "type": "Standard",
+                "tickets": 300,
+                "price": "0.18",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1787",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 18,
+            "name": "nfts",
+            "label": "NFTs",
+            "createTime": "2023-05-30T14:18:25.920Z",
+            "updateTime": "2023-10-18T14:25:24.000Z"
+        },
+        "tickets": 66,
+        "ticketsFree": 16,
+        "ticketsPaid": 50,
+        "participants": 19,
+        "participantsFree": 15,
+        "participantsPaid": 4,
+        "metadata": {
+            "hideEntriesCount": "TRUE",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 25x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "basePriceOverride": 0.0012,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-28T01:00:00.000Z",
+        "openTime": "2024-01-28T01:00:00.000Z",
+        "closeTime": "2024-01-31T01:00:00.000Z",
+        "drawTime": "2024-01-31T01:00:00.000Z",
+        "blockchain": {
+            "chainId": 1,
+            "raffleId": "1787",
+            "contract": {
+                "type": "Standard",
+                "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "NFT"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24411,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Beanz",
+        "description": "BEANZ are a small species that sprouts from the dirt in the garden. They make for a great sidekick to an Azuki, although some like to kick it alone. They're earnestly driven by the desire to help. However, certain BEANZ feel a calling to pave their own path...\n\n",
+        "imageUrl": "https://i.seadn.io/gcs/files/95f523a75418e7c2277f65203e388229.png?auto=format&dpr=1&w=384",
+        "assets": [
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://i.seadn.io/gcs/files/95f523a75418e7c2277f65203e388229.png?auto=format&dpr=1&w=384"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48111,
+                "type": "NFT",
+                "name": "Bean #15958",
+                "shortName": "BO15958",
+                "imageUrl": "https://i.seadn.io/gcs/files/95f523a75418e7c2277f65203e388229.png?auto=format&dpr=1&w=384",
+                "contractAddress": "0x306b1ea3ecdf94ab739f1910bbda052ed4a9f949",
+                "standard": "ERC721",
+                "tokenId": "15958",
+                "staked": true,
+                "value": "0.46",
+                "symbolOrCollection": "beanzofficial",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90797,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1788",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90798,
+                "type": "Standard",
+                "tickets": 8,
+                "price": "0.006",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1788",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90799,
+                "type": "Standard",
+                "tickets": 26,
+                "price": "0.018",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1788",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90800,
+                "type": "Standard",
+                "tickets": 120,
+                "price": "0.078",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1788",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90801,
+                "type": "Standard",
+                "tickets": 300,
+                "price": "0.18",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1788",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 18,
+            "name": "nfts",
+            "label": "NFTs",
+            "createTime": "2023-05-30T14:18:25.920Z",
+            "updateTime": "2023-10-18T14:25:24.000Z"
+        },
+        "tickets": 62,
+        "ticketsFree": 12,
+        "ticketsPaid": 50,
+        "participants": 14,
+        "participantsFree": 10,
+        "participantsPaid": 4,
+        "metadata": {
+            "hideEntriesCount": "TRUE",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 25x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "basePriceOverride": 0.0012,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-28T08:00:00.000Z",
+        "openTime": "2024-01-28T08:00:00.000Z",
+        "closeTime": "2024-01-30T08:00:00.000Z",
+        "drawTime": "2024-01-30T08:00:00.000Z",
+        "blockchain": {
+            "chainId": 1,
+            "raffleId": "1788",
+            "contract": {
+                "type": "Standard",
+                "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "NFT"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24412,
+        "runType": "blockchain",
+        "playType": "raffle",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Elemental",
+        "description": "Azuki Elementals are a collection of 20,000 characters within the four domains of the Garden.\n\n",
+        "imageUrl": "https://i.seadn.io/s/raw/files/9af22744da837937ff6f3dea35890d8d.png?auto=format&dpr=1&w=384",
+        "assets": [
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://i.seadn.io/s/raw/files/9af22744da837937ff6f3dea35890d8d.png?auto=format&dpr=1&w=384"
+            }
+        ],
+        "featured": false,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48112,
+                "type": "NFT",
+                "name": "Elemental #4521",
+                "shortName": "AE4521",
+                "imageUrl": "https://i.seadn.io/s/raw/files/9af22744da837937ff6f3dea35890d8d.png?auto=format&dpr=1&w=384",
+                "contractAddress": "0xb6a37b5d14d502c3ab0ae6f3a0e058bc9517786e",
+                "standard": "ERC721",
+                "tokenId": "4521",
+                "staked": true,
+                "value": "0.93",
+                "symbolOrCollection": "azukielementals",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 90802,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1790",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                },
+                "maxPerUser": 1
+            },
+            {
+                "id": 90803,
+                "type": "Standard",
+                "tickets": 8,
+                "price": "0.006",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1790",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90804,
+                "type": "Standard",
+                "tickets": 26,
+                "price": "0.018",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1790",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90805,
+                "type": "Standard",
+                "tickets": 120,
+                "price": "0.078",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1790",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            },
+            {
+                "id": 90806,
+                "type": "Standard",
+                "tickets": 300,
+                "price": "0.18",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Client",
+                    "raffleId": "1790",
+                    "contract": {
+                        "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                        "version": "1.3.9"
+                    }
+                }
+            }
+        ],
+        "category": {
+            "id": 18,
+            "name": "nfts",
+            "label": "NFTs",
+            "createTime": "2023-05-30T14:18:25.920Z",
+            "updateTime": "2023-10-18T14:25:24.000Z"
+        },
+        "tickets": 86,
+        "ticketsFree": 10,
+        "ticketsPaid": 76,
+        "participants": 12,
+        "participantsFree": 8,
+        "participantsPaid": 4,
+        "metadata": {
+            "hideEntriesCount": "TRUE",
+            "packageButtonLabels": [
+                "FREE ENTRY",
+                "++",
+                "++",
+                "++",
+                "++"
+            ],
+            "packageConfirmation": 0,
+            "packageConfirmationText": "Free single entry incurs a single entry gas fee to register on the blockchain. <br><br> You can use our smart contract to scale your entries up to 25x and give yourself a higher chance of winning whilst still paying single entry gas. <br><br> Are you sure you want to continue with a single free entry?",
+            "packageEmailItem": 1,
+            "basePriceOverride": 0.0012,
+            "labelText": "2.5% ETH Reward",
+            "rewardPercentage": 2.5
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": false
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-28T15:00:00.000Z",
+        "openTime": "2024-01-28T15:00:00.000Z",
+        "closeTime": "2024-01-30T15:00:00.000Z",
+        "drawTime": "2024-01-30T15:00:00.000Z",
+        "blockchain": {
+            "chainId": 1,
+            "raffleId": "1790",
+            "contract": {
+                "type": "Standard",
+                "address": "0x4F9343fA110e8c5C1276B810fBbBB70A19678015",
+                "version": "1.3.9",
+                "prizeTypes": [
+                    "NFT"
+                ],
+                "maxPrizes": 1,
+                "features": []
+            },
+            "seller": {
+                "id": 7008,
+                "name": "MetaWinDotCom.eth",
+                "verify": false
+            }
+        },
+        "reminder": false
+    },
+    {
+        "id": 24658,
+        "runType": "platform",
+        "playType": "Lootbox",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Prize Builder ",
+        "description": "Get ready for PRIZE BUILDER! </br> <br> MetaWin will start the prize pool at $25 (0.013), and that will grow with each new entry. Enter our<strong> GAS FREE </strong> winbox now.</br><br> Are you ready to play, contribute, and possibly take home a fortune in ETH? Join now!",
+        "imageUrl": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "closed",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_closed400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "entry",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_key400x400.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg"
+            },
+            {
+                "type": "Video",
+                "key": "open",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_open400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "reveal",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_opening400x400.mp4"
+            }
+        ],
+        "featured": true,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48840,
+                "type": "FundsPercentage",
+                "percentage": 50,
+                "currencyCode": "ETH",
+                "amount": "0.012345",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            },
+            {
+                "id": 48841,
+                "type": "FundsPercentage",
+                "percentage": 30,
+                "currencyCode": "ETH",
+                "amount": "0.007407",
+                "quantity": 1,
+                "rank": 2,
+                "reward": false
+            },
+            {
+                "id": 48842,
+                "type": "FundsPercentage",
+                "percentage": 20,
+                "currencyCode": "ETH",
+                "amount": "0.004938",
+                "quantity": 1,
+                "rank": 3,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 91791,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0.0005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91792,
+                "type": "Standard",
+                "tickets": 5,
+                "price": "0.0025",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91793,
+                "type": "Standard",
+                "tickets": 10,
+                "price": "0.005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91794,
+                "type": "Standard",
+                "tickets": 25,
+                "price": "0.0125",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            }
+        ],
+        "category": {
+            "id": 6,
+            "name": "lootbox",
+            "label": "Reepz Vs Punks2023",
+            "createTime": "2022-10-20T16:56:59.925Z",
+            "updateTime": "2023-11-14T15:38:36.000Z"
+        },
+        "tickets": 31,
+        "ticketsFree": 0,
+        "ticketsPaid": 31,
+        "participants": 10,
+        "participantsFree": 0,
+        "participantsPaid": 10,
+        "metadata": {
+            "labelText": "NO GAS FEES",
+            "restrictedCountries": [
+                "US"
+            ],
+            "hideDiscountText": true
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": true
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-29T01:13:38.000Z",
+        "openTime": "2024-01-29T01:15:00.000Z",
+        "closeTime": "2024-01-29T02:15:00.000Z",
+        "drawTime": "2024-01-29T02:15:00.000Z",
+        "autoPayout": true,
+        "currencyCode": "ETH",
+        "totalFunds": "0.02469",
+        "reminder": false
+    },
+    {
+        "id": 24659,
+        "runType": "platform",
+        "playType": "Lootbox",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Prize Builder ",
+        "description": "Get ready for PRIZE BUILDER! </br> <br> MetaWin will start the prize pool at $25 (0.013), and that will grow with each new entry. Enter our<strong> GAS FREE </strong> winbox now.</br><br> Are you ready to play, contribute, and possibly take home a fortune in ETH? Join now!",
+        "imageUrl": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "closed",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_closed400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "entry",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_key400x400.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg"
+            },
+            {
+                "type": "Video",
+                "key": "open",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_open400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "reveal",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_opening400x400.mp4"
+            }
+        ],
+        "featured": true,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48843,
+                "type": "FundsPercentage",
+                "percentage": 50,
+                "currencyCode": "ETH",
+                "amount": "0.00877",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            },
+            {
+                "id": 48844,
+                "type": "FundsPercentage",
+                "percentage": 30,
+                "currencyCode": "ETH",
+                "amount": "0.005262",
+                "quantity": 1,
+                "rank": 2,
+                "reward": false
+            },
+            {
+                "id": 48845,
+                "type": "FundsPercentage",
+                "percentage": 20,
+                "currencyCode": "ETH",
+                "amount": "0.003508",
+                "quantity": 1,
+                "rank": 3,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 91795,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0.0005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91796,
+                "type": "Standard",
+                "tickets": 5,
+                "price": "0.0025",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91797,
+                "type": "Standard",
+                "tickets": 10,
+                "price": "0.005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91798,
+                "type": "Standard",
+                "tickets": 25,
+                "price": "0.0125",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            }
+        ],
+        "category": {
+            "id": 6,
+            "name": "lootbox",
+            "label": "Reepz Vs Punks2023",
+            "createTime": "2022-10-20T16:56:59.925Z",
+            "updateTime": "2023-11-14T15:38:36.000Z"
+        },
+        "tickets": 12,
+        "ticketsFree": 0,
+        "ticketsPaid": 12,
+        "participants": 6,
+        "participantsFree": 0,
+        "participantsPaid": 6,
+        "metadata": {
+            "labelText": "NO GAS FEES",
+            "restrictedCountries": [
+                "US"
+            ],
+            "hideDiscountText": true
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": true
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-29T01:28:38.000Z",
+        "openTime": "2024-01-29T01:30:00.000Z",
+        "closeTime": "2024-01-29T02:30:00.000Z",
+        "drawTime": "2024-01-29T02:30:00.000Z",
+        "autoPayout": true,
+        "currencyCode": "ETH",
+        "totalFunds": "0.01754",
+        "reminder": false
+    },
+    {
+        "id": 24660,
+        "runType": "platform",
+        "playType": "Lootbox",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Prize Builder ",
+        "description": "Get ready for PRIZE BUILDER! </br> <br> MetaWin will start the prize pool at $25 (0.013), and that will grow with each new entry. Enter our<strong> GAS FREE </strong> winbox now.</br><br> Are you ready to play, contribute, and possibly take home a fortune in ETH? Join now!",
+        "imageUrl": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "closed",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_closed400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "entry",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_key400x400.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg"
+            },
+            {
+                "type": "Video",
+                "key": "open",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_open400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "reveal",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_opening400x400.mp4"
+            }
+        ],
+        "featured": true,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48846,
+                "type": "FundsPercentage",
+                "percentage": 50,
+                "currencyCode": "ETH",
+                "amount": "0.00952",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            },
+            {
+                "id": 48847,
+                "type": "FundsPercentage",
+                "percentage": 30,
+                "currencyCode": "ETH",
+                "amount": "0.005712",
+                "quantity": 1,
+                "rank": 2,
+                "reward": false
+            },
+            {
+                "id": 48848,
+                "type": "FundsPercentage",
+                "percentage": 20,
+                "currencyCode": "ETH",
+                "amount": "0.003808",
+                "quantity": 1,
+                "rank": 3,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 91799,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0.0005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91800,
+                "type": "Standard",
+                "tickets": 5,
+                "price": "0.0025",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91801,
+                "type": "Standard",
+                "tickets": 10,
+                "price": "0.005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91802,
+                "type": "Standard",
+                "tickets": 25,
+                "price": "0.0125",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            }
+        ],
+        "category": {
+            "id": 6,
+            "name": "lootbox",
+            "label": "Reepz Vs Punks2023",
+            "createTime": "2022-10-20T16:56:59.925Z",
+            "updateTime": "2023-11-14T15:38:36.000Z"
+        },
+        "tickets": 16,
+        "ticketsFree": 0,
+        "ticketsPaid": 16,
+        "participants": 6,
+        "participantsFree": 0,
+        "participantsPaid": 6,
+        "metadata": {
+            "labelText": "NO GAS FEES",
+            "restrictedCountries": [
+                "US"
+            ],
+            "hideDiscountText": true
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": true
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-29T01:43:38.000Z",
+        "openTime": "2024-01-29T01:45:00.000Z",
+        "closeTime": "2024-01-29T02:45:00.000Z",
+        "drawTime": "2024-01-29T02:45:00.000Z",
+        "autoPayout": true,
+        "currencyCode": "ETH",
+        "totalFunds": "0.01904",
+        "reminder": false
+    },
+    {
+        "id": 24661,
+        "runType": "platform",
+        "playType": "Lootbox",
+        "mechanism": "Standard",
+        "status": 2,
+        "name": "Prize Builder ",
+        "description": "Get ready for PRIZE BUILDER! </br> <br> MetaWin will start the prize pool at $25 (0.013), and that will grow with each new entry. Enter our<strong> GAS FREE </strong> winbox now.</br><br> Are you ready to play, contribute, and possibly take home a fortune in ETH? Join now!",
+        "imageUrl": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg",
+        "assets": [
+            {
+                "type": "Video",
+                "key": "closed",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_closed400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "entry",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_key400x400.mp4"
+            },
+            {
+                "type": "Image",
+                "key": "hero",
+                "url": "https://content.prod.platform.metawin.com/lootbox/image/silver_close.jpg"
+            },
+            {
+                "type": "Video",
+                "key": "open",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_open400x400.mp4"
+            },
+            {
+                "type": "Video",
+                "key": "reveal",
+                "url": "https://content.prod.platform.metawin.com/lootbox/video/silver_opening400x400.mp4"
+            }
+        ],
+        "featured": true,
+        "public": true,
+        "prizes": [
+            {
+                "id": 48849,
+                "type": "FundsPercentage",
+                "percentage": 50,
+                "currencyCode": "ETH",
+                "amount": "0.00744",
+                "quantity": 1,
+                "rank": 1,
+                "reward": false
+            },
+            {
+                "id": 48850,
+                "type": "FundsPercentage",
+                "percentage": 30,
+                "currencyCode": "ETH",
+                "amount": "0.004464",
+                "quantity": 1,
+                "rank": 2,
+                "reward": false
+            },
+            {
+                "id": 48851,
+                "type": "FundsPercentage",
+                "percentage": 20,
+                "currencyCode": "ETH",
+                "amount": "0.002976",
+                "quantity": 1,
+                "rank": 3,
+                "reward": false
+            }
+        ],
+        "entryPackageType": "Standard",
+        "prices": [
+            {
+                "id": 91803,
+                "type": "Standard",
+                "tickets": 1,
+                "price": "0.0005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91804,
+                "type": "Standard",
+                "tickets": 5,
+                "price": "0.0025",
+                "recommend": true,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91805,
+                "type": "Standard",
+                "tickets": 10,
+                "price": "0.005",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            },
+            {
+                "id": 91806,
+                "type": "Standard",
+                "tickets": 25,
+                "price": "0.0125",
+                "recommend": false,
+                "currencyCode": "ETH",
+                "available": true,
+                "entryAction": {
+                    "type": "Server"
+                }
+            }
+        ],
+        "category": {
+            "id": 6,
+            "name": "lootbox",
+            "label": "Reepz Vs Punks2023",
+            "createTime": "2022-10-20T16:56:59.925Z",
+            "updateTime": "2023-11-14T15:38:36.000Z"
+        },
+        "tickets": 5,
+        "ticketsFree": 0,
+        "ticketsPaid": 5,
+        "participants": 1,
+        "participantsFree": 0,
+        "participantsPaid": 1,
+        "metadata": {
+            "labelText": "NO GAS FEES",
+            "restrictedCountries": [
+                "US"
+            ],
+            "hideDiscountText": true
+        },
+        "closeCondition": {
+            "type": "fund",
+            "max": 0,
+            "remaining": "0",
+            "instant": true
+        },
+        "eligibilities": [],
+        "launchTime": "2024-01-29T01:58:38.000Z",
+        "openTime": "2024-01-29T02:00:00.000Z",
+        "closeTime": "2024-01-29T03:00:00.000Z",
+        "drawTime": "2024-01-29T03:00:00.000Z",
+        "autoPayout": true,
+        "currencyCode": "ETH",
+        "totalFunds": "0.01488",
+        "reminder": false
+    }
+]

@@ -1,0 +1,44 @@
+// theme
+@mixin dark {
+    @at-root :global(.dark) & {
+        @content;
+    }
+}
+
+@mixin dark-body {
+    @at-root .dark {
+        @content;
+    }
+}
+
+@mixin dark-common {
+    @at-root .dark & {
+        @content;
+    }
+}
+
+
+// break-points
+@mixin xl {
+    @media only screen and (max-width: "1280px") {
+        @content;
+    }
+}
+
+@mixin lg {
+    @media only screen and (max-width: "1024px") {
+        @content;
+    }
+}
+
+@mixin md {
+    @media only screen and (max-width: "768px") {
+        @content;
+    }
+}
+
+@mixin sm {
+    @media only screen and (max-width: "480px") {
+        @content;
+    }
+}
