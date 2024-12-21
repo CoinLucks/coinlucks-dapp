@@ -81,24 +81,25 @@ const BetGamePoolCard = ({
             </AppLink>
             <div className="flex text-pm p-2 pl-4 flex-grow flex-col items-start justify-items-start">
               <div className="text-lg font-semibold">{tGame(`${game.name}.name`)}</div>
-              <span>{t("total_staked")} </span>
+
               <div className="text-xl my-1 font-semibold leading-snug text-foreground">
                 <CryptoCurrency
-                  className="flex flex-row"
+                  className="flex flex-row text-sm"
                   token={token.symbol}
                   value={amount}
                   display="Crypto"
                   showSuffix={false}
                   showIcon={true}
                   iconSize={{ width: "18px", height: "18px" }}
-                  endContent={
-                    price && (
-                      <span className="ml-2 text-pm text-foreground-800 font-normal">
-                        ≈ {money.format(Number(amount) * Number(price.price))}
-                      </span>
-                    )
-                  }
+                  endContent={<span className="text-ps text-foreground-700 font-normal">({t("field.tvl")})</span>}
                 />
+                {
+                  price && (
+                    <span className="ml-2 text-ps text-foreground-800 font-normal">
+                      ≈ {money.format(Number(amount) * Number(price.price))}
+                    </span>
+                  )
+                }
               </div>
             </div>
           </div>
@@ -106,7 +107,7 @@ const BetGamePoolCard = ({
           <Divider className="my-2" />
           <div className="flex flex-col my-2 flex-1 shrink justify-center self-stretch basis-0 min-w-[240px]">
             <div className="flex flex-col gap-1">
-              <div className="flex flex-row items-center w-full px-2 justify-between text-sm">
+              {/* <div className="flex flex-row items-center w-full px-2 justify-between text-sm">
                 <Tips text={t("field.balance_tip")} startContent={t("pools")} />
                 <span className="font-semibold">
                   {poolStats.totalRewardsReceived ? (
@@ -163,16 +164,36 @@ const BetGamePoolCard = ({
                     "-"
                   )}
                 </span>
+              </div> */}
+              <div className="flex flex-row items-center w-full px-2 justify-between text-sm">
+                <Tips className="max-md:text-ps" text={t("field.pending_rewards_tip")} startContent={t("field.pending_rewards")} />
+                <span className="font-semibold">
+                  {poolStats.totalRewardsDistributed ? (
+                    <CryptoCurrency
+                      className="flex flex-row"
+                      token={token.symbol}
+                      value={(Number(
+                        formatEther(poolStats.totalRewardsReceived)
+                      ) - Number(formatEther(poolStats.totalRewardsDistributed))).toFixed(4)}
+                      display="Crypto"
+                      showSuffix={false}
+                      showIcon={true}
+                      iconSize={{ width: "16px", height: "16px" }}
+                    />
+                  ) : (
+                    "-"
+                  )}
+                </span>
               </div>
               <div className="flex flex-row items-center w-full px-2 pr-0 justify-between text-sm">
-                <span>{t("field.apr")}</span>
+                <span className="max-md:text-ps">{t("field.apr")}</span>
                 <div className="flex flex-row items-center">
                   <span className="font-semibold">{(roi.apr * 100).toFixed(4)}%</span>
                   <StakeYieldCalculatorButton />
                 </div>
               </div>
               <div className="flex flex-row items-center w-full px-2 pr-0 justify-between text-sm">
-                <Tips text={t.rich("field.yield_tip", { amount: stakingAmt, token: token.symbol, yield: day14ROI })} startContent={t("field.yield")} />
+                <Tips className="max-md:text-ps" text={t.rich("field.yield_tip", { amount: stakingAmt, token: token.symbol, yield: day14ROI })} startContent={t("field.yield")} />
                 <div className="flex flex-row items-center"><span className="font-semibold">{day14ROI}%</span>
                   <StakeYieldCalculatorButton />
                 </div>

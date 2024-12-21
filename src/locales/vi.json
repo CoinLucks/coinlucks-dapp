@@ -162,6 +162,7 @@
   },
   "pool": {
     "pools": "Bể",
+    "prize_pool": "Quỹ Giải Thưởng",
     "jackpot_pool": "Bể Jackpot",
     "staking_pool": "Bể Staking",
     "staking_pool_desc": "Cược {token} để nhận phần thưởng, 30% doanh thu từ phí trò chơi sẽ được phân phối cho những người đặt cược.",
@@ -175,6 +176,9 @@
       "rewards_tip": "Tổng phần thưởng nhận được",
       "distributed": "Phần thưởng đã phân phối",
       "distributed_tip": "Tổng phần thưởng đã phân phối",
+      "pending_rewards": "Phần thưởng đang chờ",
+      "pending_rewards_tip": "Tổng phần thưởng đang chờ",
+      "tvl": "TVL",
       "apr": "APR (14 ngày)",
       "apr_tip": "Cược {amount} {token} để nhận {yield}% lợi nhuận trong 14 ngày",
       "yield": "Lợi nhuận 14 ngày",

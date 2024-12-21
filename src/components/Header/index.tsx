@@ -1,9 +1,8 @@
 
 
 import { Icon } from "@iconify/react/dist/iconify.js";
-import { Button, Chip } from "@nextui-org/react";
+import { Button } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
-import React from "react";
 
 import AppLink from "@/components/AppLink";
 import { Logo } from "@/components/Logo";

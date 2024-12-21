@@ -162,6 +162,7 @@
   },
   "pool": {
     "pools": "Pools",
+    "prize_pool": "Prize Pool",
     "jackpot_pool": "Jackpot Pool",
     "staking_pool": "Staking Pool",
     "staking_pool_desc": "Stake {token} to earn rewards, with 30% of the game fee revenue distributed to stakers.",
@@ -175,6 +176,9 @@
       "rewards_tip": "Total Rewards Received",
       "distributed": "Distributed",
       "distributed_tip": "Total Rewards Distributed",
+      "pending_rewards": "Pending Rewards",
+      "pending_rewards_tip": "Total Pending Rewards",
+      "tvl": "TVL",
       "apr": "APR",
       "apr_tip": "Stake {amount} {token} to earn a {yield}% yield over 14 days",
       "yield": "14-Day Yield",

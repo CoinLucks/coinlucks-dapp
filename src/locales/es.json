@@ -162,6 +162,7 @@
   },
   "pool": {
     "pools": "Fondos",
+    "prize_pool": "Fondo de Premios",
     "jackpot_pool": "Fondo del Bote",
     "staking_pool": "Fondo de Staking",
     "staking_pool_desc": "Apuesta {token} para ganar recompensas, con el 30% de los ingresos de las tarifas del juego distribuidos a los apostadores.",
@@ -175,6 +176,9 @@
       "rewards_tip": "Recompensas Totales Recibidas",
       "distributed": "Distribuido",
       "distributed_tip": "Recompensas Totales Distribuidas",
+      "pending_rewards": "Recompensas Pendientes",
+      "pending_rewards_tip": "Total de Recompensas Pendientes",
+      "tvl": "TVL",
       "apr": "APR (14 días)",
       "apr_tip": "Apuesta {amount} {token} para ganar un rendimiento del {yield}% durante 14 días",
       "yield": "Rendimiento de 14 días",

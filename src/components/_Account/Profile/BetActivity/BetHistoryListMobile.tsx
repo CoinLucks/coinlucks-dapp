@@ -53,7 +53,7 @@ const BetHistoryList = ({
       refetch();
     }
   }, [triggers.payment, refetch]);
-  console.log(queryError);
+  
   return (
     <>
       <div className="flex flex-row items-center justify-start mt-2 border-b border-divider p-2 pt-0 text-ps text-foreground-800 gap-2">

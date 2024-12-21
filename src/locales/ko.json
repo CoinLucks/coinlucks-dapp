@@ -162,6 +162,7 @@
   },
   "pool": {
     "pools": "풀",
+    "prize_pool": "상금풀",
     "jackpot_pool": "잭팟 풀",
     "staking_pool": "스테이킹 풀",
     "staking_pool_desc": "{token}을 스테이킹하여 보상을 얻고, 게임 수수료의 30%가 스테이커에게 분배됩니다.",
@@ -175,6 +176,9 @@
       "rewards_tip": "총 받은 보상",
       "distributed": "배분된 보상",
       "distributed_tip": "총 배분된 보상",
+      "pending_rewards": "보류 중인 보상",
+      "pending_rewards_tip": "전체 보류 중인 보상",
+      "tvl": "TVL",
       "apr": "APR (14일)",
       "apr_tip": "{amount} {token}을 스테이킹하여 14일 동안 {yield}%의 수익을 얻으세요",
       "yield": "14일 수익",

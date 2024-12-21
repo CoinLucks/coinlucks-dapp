@@ -162,6 +162,7 @@
   },
   "pool": {
     "pools": "Pools",
+    "prize_pool": "Preispool",
     "jackpot_pool": "Jackpot Pool",
     "staking_pool": "Staking Pool",
     "staking_pool_desc": "Setze {token}, um Belohnungen zu verdienen, wobei 30% der Spielgebühren an die Staker verteilt werden.",
@@ -175,6 +176,9 @@
       "rewards_tip": "Gesamt erhaltene Belohnungen",
       "distributed": "Verteilt",
       "distributed_tip": "Gesamt verteilte Belohnungen",
+      "pending_rewards": "Ausstehende Belohnungen",
+      "pending_rewards_tip": "Gesamte ausstehende Belohnungen",
+      "tvl": "TVL",
       "apr": "APR (14 Tage)",
       "apr_tip": "Setze {amount} {token}, um {yield}% Rendite über 14 Tage zu erzielen",
       "yield": "14-Tage-Rendite",

@@ -232,6 +232,7 @@ const StakeYieldCalculatorModal = ({
     return (
         <>
             <Modal
+                placement="top"
                 backdrop='opaque'
                 isOpen={isOpen}
                 onClose={onClose}

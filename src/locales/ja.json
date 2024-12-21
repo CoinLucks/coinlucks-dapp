@@ -162,6 +162,7 @@
   },
   "pool": {
     "pools": "プール",
+    "prize_pool": "賞金プール",
     "jackpot_pool": "ジャックポットプール",
     "staking_pool": "ステーキングプール",
     "staking_pool_desc": "{token}をステーキングして報酬を得る、ゲーム料金収益の30%がステーカーに分配されます。",
@@ -175,6 +176,9 @@
       "rewards_tip": "受け取った報酬の合計",
       "distributed": "配布済み",
       "distributed_tip": "配布された報酬の合計",
+      "pending_rewards": "保留中の報酬",
+      "pending_rewards_tip": "保留中の報酬の合計",
+      "tvl": "TVL",
       "apr": "APR (14日間)",
       "apr_tip": "{amount} {token}をステーキングして、14日間で{yield}%のリターンを得る",
       "yield": "14日間のリターン",
