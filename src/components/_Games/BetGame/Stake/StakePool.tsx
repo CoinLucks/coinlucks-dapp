@@ -11,6 +11,7 @@ import { Native } from "@/types/token/native";
 
 import { StakePoolLoading } from "../loading";
 import { calculateStakeROI, getROI } from "../utils";
+
 import { StakeYieldCalculatorButton } from "./StakeYieldCalculator";
 
 const StakePool = ({
