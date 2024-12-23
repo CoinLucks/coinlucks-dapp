@@ -53,32 +53,32 @@ const HowToPlay = () => {
                     <table className="table-auto border-collapse">
                         <thead>
                             <tr className="bg-indigo-100 text-gray-800 text-sm font-medium">
-                                <th className="px-2 px-1 text-left">
+                                <th className="px-2 text-left">
                                     Outcome
                                 </th>
-                                <th className="px-2 px-1 text-left">
+                                <th className="px-2 text-left">
                                     Probability
                                 </th>
-                                <th className="px-2 px-1 text-left">
+                                <th className="px-2 text-left">
                                     Multiplier
                                 </th>
                             </tr>
                         </thead>
                         <tbody className="text-ps">
                             <tr className="border-t">
-                                <td className="px-2 px-1 font-semibold">Edge</td>
-                                <td className="px-2 px-1">0.4%</td>
-                                <td className="px-2 px-1">50x</td>
+                                <td className="px-2 font-semibold">Edge</td>
+                                <td className="px-2">0.4%</td>
+                                <td className="px-2">48.25x</td>
                             </tr>
                             <tr className="border-t">
-                                <td className="px-2 px-1 font-semibold">Heads</td>
-                                <td className="px-2 px-1">49.8%</td>
-                                <td className="px-2 px-1">2x</td>
+                                <td className="px-2 font-semibold">Heads</td>
+                                <td className="px-2">49.8%</td>
+                                <td className="px-2">2x</td>
                             </tr>
                             <tr className="border-t">
-                                <td className="px-2 px-1 font-semibold">Tails</td>
-                                <td className="px-2 px-1">49.8%</td>
-                                <td className="px-2 px-1">2x</td>
+                                <td className="px-2 font-semibold">Tails</td>
+                                <td className="px-2">49.8%</td>
+                                <td className="px-2">2x</td>
                             </tr>
 
                         </tbody>

@@ -79,11 +79,11 @@ const HowToPlay = () => {
                             </tr>
                             <tr className="border-t">
                                 <td className="px-2 py-1">First Prize</td>
-                                <td className="px-2 py-1">5,000x + 15% Jackpot</td>
+                                <td className="px-2 py-1">100x + 15% Jackpot</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-2 py-1">Second Prize</td>
-                                <td className="px-2 py-1">200x + 7.5% Jackpot</td>
+                                <td className="px-2 py-1">50x + 7.5% Jackpot</td>
                             </tr>
                             <tr className="border-t">
                                 <td className="px-2 py-1">Third Prize</td>
@@ -99,7 +99,7 @@ const HowToPlay = () => {
                             </tr>
                             <tr className="border-t">
                                 <td className="px-2 py-1">Sixth Prize</td>
-                                <td className="px-2 py-1">1.5x</td>
+                                <td className="px-2 py-1">1x</td>
                             </tr>
                         </tbody>
                     </table>
