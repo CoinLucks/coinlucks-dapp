@@ -15,6 +15,7 @@ import ReferralsIntro from "./Intro";
 import Leaderboard from "./Leaderboard";
 import ReferralRecords from "./ReferralRecords";
 import ReferralStatistic from "./ReferralStatistic";
+import AppLink from "../AppLink";
 
 const ReferralsPage = () => {
   const t = useTranslations("referral");
@@ -62,10 +63,10 @@ const ReferralsPage = () => {
       </div>
       <Spacer y={8} />
       <div className="relative">
-        <Button href="https://docs.coinlucks.com/guides/referrals/how-to-invite" variant="light" size="md" className="absolute right-[-12px] top-0 underline gap-1">
+        <AppLink href="https://docs.coinlucks.com/guides/referrals" className="absolute right-0 top-2 underline gap-1">
           <span className="max-md:text-ps">{t("how_to_invite")}</span>
           <Icon icon={"bi:question-circle"} width={18} />
-        </Button>
+        </AppLink>
         <Tabs
           size="lg"
           aria-label="Options"

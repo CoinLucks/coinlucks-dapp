@@ -102,7 +102,7 @@ const Footer = () => {
                     <div className="mt-4 max-md:mt-1">
                       <AppLink
                         className="text-pm max-md:text-ps text-foreground-800"
-                        href="https://docs.coinlucks.com"
+                        href="https://docs.coinlucks.com/get-started/about"
                       >
                         {t("about")}
                       </AppLink>
@@ -142,7 +142,7 @@ const Footer = () => {
                     <div className="mt-4 max-md:mt-1">
                       <AppLink
                         className="text-pm max-md:text-ps text-foreground-800"
-                        href="https://docs.coinlucks.com/learn-more/privicy_policy"
+                        href="https://docs.coinlucks.com/learn-more/privicy-policy"
                       >
                         {t("privicy_policy")}
                       </AppLink>
@@ -150,7 +150,7 @@ const Footer = () => {
                     <div className="mt-4 max-md:mt-1">
                       <AppLink
                         className="text-pm max-md:text-ps text-foreground-800"
-                        href="https://docs.coinlucks.com/learn-more/terms_of_use"
+                        href="https://docs.coinlucks.com/learn-more/terms-of-use"
                       >
                         {t("terms_of_use")}
                       </AppLink>
