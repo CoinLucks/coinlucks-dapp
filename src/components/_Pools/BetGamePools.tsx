@@ -25,7 +25,7 @@ const BetGamePools = () => {
                 title={t("staking_pool")}
                 desc={t("staking_pool_desc", { token: token.symbol })}
                 endContent={
-                    <AppLink href="https://docs.coinlucks.com/staking" className="absolute right-0 top-0 underline">
+                    <AppLink href="https://docs.coinlucks.com/guides/staking" className="absolute right-0 top-0 underline">
                         <span className="max-md:text-pm text-nowrap mr-2">{t("how_it_work")}</span>
                         <Icon icon={"bi:question-circle"} width={18} />
                     </AppLink>

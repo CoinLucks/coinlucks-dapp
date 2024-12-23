@@ -62,7 +62,7 @@ const ReferralsPage = () => {
       </div>
       <Spacer y={8} />
       <div className="relative">
-        <Button variant="light" size="md" className="absolute right-[-12px] top-0 underline gap-1">
+        <Button href="https://docs.coinlucks.com/guides/referrals/how-to-invite" variant="light" size="md" className="absolute right-[-12px] top-0 underline gap-1">
           <span className="max-md:text-ps">{t("how_to_invite")}</span>
           <Icon icon={"bi:question-circle"} width={18} />
         </Button>
