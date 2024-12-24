@@ -231,5 +231,59 @@
     "statistic": "Thống kê",
     "top_play_games": "Trò chơi chơi nhiều nhất",
     "bind_telegram": "Liên kết tài khoản Telegram"
+  },
+  "faqs": {
+    "q0": {
+      "title": "CoinLucks là gì?",
+      "content": "CoinLucks là một nền tảng trò chơi Fair-to-Win phi tập trung được xây dựng trên chuỗi opBNB, nơi người dùng có thể đặt cược và tham gia trò chơi. Thông qua hợp đồng thông minh và cơ chế rút thăm minh bạch, CoinLucks đảm bảo tính công bằng và an toàn cho tất cả người tham gia. Tất cả các hành động đều công khai và minh bạch, loại bỏ ảnh hưởng của các bên trung gian."
+    },
+    "q1": {
+      "title": "Điều gì làm cho CoinLucks khác biệt/đổi mới?",
+      "content": "Sự đổi mới của CoinLucks nằm ở hệ thống rút thăm hoàn toàn phi tập trung và tính minh bạch dựa trên blockchain. Chúng tôi không phụ thuộc vào bất kỳ bên trung gian nào; tất cả các hành động đều công khai và minh bạch, và người dùng có toàn quyền kiểm soát tài chính của mình. Bằng cách sử dụng công nghệ blockchain, CoinLucks giải quyết các vấn đề về lòng tin vốn có trong các hệ thống trò chơi truyền thống, đảm bảo tính công bằng và an toàn. Ngoài ra, tất cả các giao dịch trên nền tảng đều có thể truy vết, cho phép mỗi người dùng xem bản ghi thực tế của tất cả các hoạt động."
+    },
+    "q2": {
+      "title": "Làm thế nào để tham gia các trò chơi trên CoinLucks?",
+      "content": "Kết nối ví tiền mã hóa của bạn với mạng opBNB, chọn trò chơi bạn muốn tham gia và thanh toán số tiền đặt cược tương ứng. Mỗi lượt đặt cược đều được ghi lại trên blockchain, đảm bảo tính công bằng và minh bạch cho tất cả các hoạt động."
+    },
+    "q3": {
+      "title": "Tôi có thể sử dụng loại tiền mã hóa nào để tham gia trò chơi?",
+      "content": "Hiện tại, CoinLucks chỉ hỗ trợ BNB để tham gia trò chơi. Chúng tôi có kế hoạch hỗ trợ thêm nhiều loại tiền mã hóa khác trong tương lai."
+    },
+    "q4": {
+      "title": "Cách thức rút thăm của CoinLucks hoạt động như thế nào?",
+      "content": "CoinLucks sử dụng hợp đồng thông minh để đảm bảo tính minh bạch và công bằng của mỗi lần rút thăm. Kết quả rút thăm được xác minh bởi Binance VRF, đảm bảo quy trình hoàn toàn minh bạch và ngăn chặn bất kỳ sự thao túng nào."
+    },
+    "q5": {
+      "title": "Làm thế nào để kiểm tra các cược và số tiền thắng của tôi?",
+      "content": "Bạn có thể xem tất cả các bản ghi cược và kết quả rút thăm trước đây qua tài khoản CoinLucks của mình. Ngoài ra, bạn cũng có thể trực tiếp truy vấn các cược và kết quả rút thăm trên blockchain bằng cách sử dụng địa chỉ hợp đồng thông minh được cung cấp."
+    },
+    "q6": {
+      "title": "Làm thế nào để nhận số tiền thắng sau khi tôi thắng?",
+      "content": "Nếu bạn thắng, bạn có thể kiểm tra mục \"Lợi nhuận đang chờ xử lý\" trên trang trò chơi và nhấn \"Nhận\" để rút tiền thắng của mình."
+    },
+    "q7": {
+      "title": "CoinLucks có tính phí không?",
+      "content": "CoinLucks tính một khoản phí nhỏ cho mỗi lượt đặt cược, và khoản phí này đã được bao gồm trong số tiền đặt cược. Các khoản phí này được sử dụng để duy trì nền tảng, phát triển và xây dựng hệ sinh thái."
+    },
+    "q8": {
+      "title": "Làm thế nào CoinLucks đảm bảo an toàn?",
+      "content": "CoinLucks đảm bảo tính minh bạch và công bằng của mỗi lần rút thăm thông qua công nghệ blockchain và hợp đồng thông minh. Tất cả các giao dịch tiền được xử lý thông qua mạng blockchain được mã hóa, đảm bảo an toàn cho tài chính của bạn. Nền tảng cũng thường xuyên tiến hành kiểm tra bảo mật để giảm thiểu các rủi ro tiềm ẩn."
+    },
+    "q9": {
+      "title": "Làm thế nào CoinLucks đảm bảo tính công bằng và minh bạch?",
+      "content": "CoinLucks sử dụng công nghệ blockchain và hợp đồng thông minh mã nguồn mở để đảm bảo rằng mọi sự tham gia của người dùng, mọi lượt đặt cược và mọi kết quả rút thăm đều có thể được xác minh công khai. Hệ thống rút thăm của CoinLucks hoàn toàn phi tập trung, với tất cả các hoạt động diễn ra trên blockchain, tránh sự phụ thuộc vào bất kỳ cơ quan tập trung nào, đảm bảo tính minh bạch và công bằng hoàn toàn."
+    },
+    "q10": {
+      "title": "CoinLucks có token hoặc kế hoạch phát hành token không?",
+      "content": "CoinLucks không có token. CoinLucks chưa công bố kế hoạch nào cho sự kiện phát hành token hoặc airdrop. Hãy cẩn thận với các trò lừa đảo tuyên bố airdrop, quà tặng, v.v. Các cập nhật chính thức và thông tin sự kiện sẽ được chia sẻ thông qua trang web chính thức và các kênh truyền thông xã hội của CoinLucks."
+    },
+    "q11": {
+      "title": "Tiền của tôi có an toàn không?",
+      "content": "Có. CoinLucks không lưu ký, vì vậy bạn hoàn toàn kiểm soát tài chính của mình."
+    },
+    "q12": {
+      "title": "Làm thế nào để liên hệ với hỗ trợ nếu tôi gặp vấn đề?",
+      "content": "Nếu bạn gặp bất kỳ vấn đề nào khi sử dụng CoinLucks, vui lòng liên hệ với nhóm hỗ trợ khách hàng của chúng tôi thông qua các tài khoản mạng xã hội chính thức của chúng tôi. Chúng tôi sẽ phản hồi và hỗ trợ bạn sớm nhất có thể."
+    }
   }
 }

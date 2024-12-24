@@ -7,6 +7,8 @@ import Container from "@/components/Container";
 import Footer from "@/components/Footer";
 import { useWindowSize } from "@/hooks";
 
+import FAQs from "../FAQ";
+
 import HotQuickGames from "./HotQuickGames";
 import Landscape from "./Landscape";
 
@@ -24,6 +26,7 @@ const HomePage = () => {
       </Container>
       <Container className={"pt-0"}>
         <LatestWinner />
+        <FAQs />
       </Container>
       {isMobile && <Footer />}
     </>

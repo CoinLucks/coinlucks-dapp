@@ -231,5 +231,59 @@
     "statistic": "Estadística",
     "top_play_games": "Juegos Más Jugados",
     "bind_telegram": "Vincular Cuenta de Telegram"
+  },
+  "faqs": {
+    "q0": {
+      "title": "¿Qué es CoinLucks?",
+      "content": "CoinLucks es una plataforma de juegos Fair-to-Win descentralizada construida sobre la cadena opBNB, donde los usuarios pueden realizar apuestas y participar en juegos. A través de contratos inteligentes y mecanismos de sorteo transparentes, CoinLucks garantiza equidad y seguridad para todos los participantes. Todas las acciones son abiertas y transparentes, eliminando la influencia de intermediarios."
+    },
+    "q1": {
+      "title": "¿Qué hace que CoinLucks sea diferente/innovador?",
+      "content": "La innovación de CoinLucks radica en su sistema de sorteos completamente descentralizado y su transparencia basada en blockchain. No dependemos de intermediarios; todas las acciones son abiertas y transparentes, y los usuarios tienen el control total de sus propios fondos. Al aprovechar la tecnología blockchain, CoinLucks aborda los problemas de confianza inherentes a los sistemas de juego tradicionales, garantizando equidad y seguridad. Además, todas las transacciones en la plataforma son rastreables, permitiendo a cada usuario ver el registro real de todas las actividades."
+    },
+    "q2": {
+      "title": "¿Cómo puedo participar en los juegos de CoinLucks?",
+      "content": "Conecta tu billetera criptográfica a la red opBNB, elige el juego en el que deseas participar y paga la cantidad correspondiente de la apuesta. Cada apuesta se registra en la blockchain, garantizando la equidad y transparencia de todas las actividades."
+    },
+    "q3": {
+      "title": "¿Qué criptomonedas puedo usar para participar en los juegos?",
+      "content": "Actualmente, CoinLucks solo admite BNB para la participación en los juegos. Planeamos admitir más criptomonedas en el futuro."
+    },
+    "q4": {
+      "title": "¿Cómo funciona el sorteo de CoinLucks?",
+      "content": "CoinLucks utiliza contratos inteligentes para garantizar la transparencia y equidad de cada sorteo. El resultado del sorteo es verificado por Binance VRF, asegurando que el proceso sea completamente transparente y evitando cualquier manipulación."
+    },
+    "q5": {
+      "title": "¿Cómo puedo verificar mis apuestas y ganancias?",
+      "content": "Puedes ver todos tus registros de apuestas y los resultados de sorteos anteriores a través de tu cuenta de CoinLucks. Además, puedes consultar directamente tus apuestas y los resultados de los sorteos en la blockchain utilizando la dirección del contrato inteligente proporcionada."
+    },
+    "q6": {
+      "title": "¿Cómo reclamo mis ganancias después de ganar?",
+      "content": "Si ganas, puedes verificar la sección \"Ganancias Pendientes\" en la página del juego y hacer clic en \"Reclamar\" para retirar tus ganancias."
+    },
+    "q7": {
+      "title": "¿CoinLucks cobra alguna tarifa?",
+      "content": "CoinLucks cobra una pequeña tarifa por cada apuesta, que está incluida en la cantidad de la apuesta. Estas tarifas se utilizan para el mantenimiento de la plataforma, el desarrollo y la construcción del ecosistema."
+    },
+    "q8": {
+      "title": "¿Cómo garantiza CoinLucks la seguridad?",
+      "content": "CoinLucks garantiza la transparencia y equidad de cada sorteo a través de la tecnología blockchain y contratos inteligentes. Todas las transacciones de fondos se procesan a través de una red blockchain encriptada, asegurando la seguridad de tus fondos. La plataforma también se somete a auditorías de seguridad regulares para mitigar posibles riesgos."
+    },
+    "q9": {
+      "title": "¿Cómo garantiza CoinLucks la equidad y la transparencia?",
+      "content": "CoinLucks utiliza tecnología blockchain y contratos inteligentes de código abierto para garantizar que la participación de cada usuario, cada apuesta realizada y cada resultado de sorteo sean verificables públicamente. El sistema de sorteos de CoinLucks es completamente descentralizado, con todas las operaciones llevándose a cabo en la blockchain, evitando la dependencia de cualquier autoridad centralizada y garantizando una transparencia y equidad completas."
+    },
+    "q10": {
+      "title": "¿Tiene CoinLucks un token o está planeado?",
+      "content": "CoinLucks no tiene un token. CoinLucks no ha anunciado planes para ningún evento de generación de tokens o airdrop. Ten cuidado con las estafas que prometen airdrops, regalos, etc. Las actualizaciones oficiales y la información de eventos se compartirán a través del sitio web oficial de CoinLucks y sus canales de redes sociales."
+    },
+    "q11": {
+      "title": "¿Está seguro mi dinero?",
+      "content": "Sí. CoinLucks es no custodial, por lo que tienes el control de tus fondos."
+    },
+    "q12": {
+      "title": "¿Cómo puedo contactar con el soporte si tengo problemas?",
+      "content": "Si encuentras algún problema mientras usas CoinLucks, por favor contacta a nuestro equipo de soporte al cliente a través de nuestras cuentas oficiales en redes sociales. Responderemos y te ayudaremos lo antes posible."
+    }
   }
 }

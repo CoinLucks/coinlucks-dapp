@@ -231,5 +231,59 @@
     "statistic": "Statistic",
     "top_play_games": "Top Played Games",
     "bind_telegram": "Bind Telegram Account"
+  },
+  "faqs": {
+    "q0": {
+      "title": "What is CoinLucks? ",
+      "content": "CoinLucks is a decentralized Fair-to-Win gaming platform built on opBNB Chain, where users can place bets and participate in games. Through smart contracts and transparent draw mechanisms, CoinLucks ensures fairness and security for all participants, with all actions being open and transparent, removing the influence of intermediaries."
+    },
+    "q1": {
+      "title": "What makes CoinLucks different/innovative?",
+      "content": "The innovation of CoinLucks lies in its fully decentralized draw system and blockchain-based transparency. We do not rely on any intermediaries; all actions are open and transparent, and users fully control their own funds. By leveraging blockchain technology, CoinLucks addresses the trust issues inherent in traditional gaming systems, ensuring fairness and security. Additionally, all transactions on the platform are traceable, allowing every user to view the true record of all activities."
+    },
+    "q2": {
+      "title": "How can I participate in CoinLucks games? ",
+      "content": "Connect your crypto wallet to the opBNB network, choose the game you wish to participate in, and pay the corresponding bet amount. Every bet is recorded on the blockchain, ensuring fairness and transparency for all activities."
+    },
+    "q3": {
+      "title": "Which cryptocurrencies can I use to participate in the games? ",
+      "content": "Currently, CoinLucks only supports BNB for participation in games. We plan to support more cryptocurrencies in the future."
+    },
+    "q4": {
+      "title": "How does CoinLucks' draw work? ",
+      "content": "CoinLucks uses smart contracts to ensure the transparency and fairness of each draw. The draw result verified by Binance VRF, ensuring the process is fully transparent and preventing any manipulation."
+    },
+    "q5": {
+      "title": "How can I check my bets and winnings? ",
+      "content": "You can view all your betting records and past draw results via your CoinLucks account. Additionally, you can directly query your bets and draw results on the blockchain using the provided smart contract address."
+    },
+    "q6": {
+      "title": "How do I claim my winnings after winning? ",
+      "content": "If you win, you can check the \"Pending Profit\" on the game page and click \"Claim\" to withdraw your winnings."
+    },
+    "q7": {
+      "title": "Does CoinLucks charge any fees? ",
+      "content": "CoinLucks charges a small fee for each bet, which is included in the bet amount. These fees are used for platform maintenance, development, and ecosystem building."
+    },
+    "q8": {
+      "title": "How does CoinLucks ensure security? ",
+      "content": "CoinLucks ensures the transparency and fairness of each draw through blockchain technology and smart contracts. All fund transactions are processed through an encrypted blockchain network, ensuring the security of your funds. The platform also undergoes regular security audits to mitigate potential risks."
+    },
+    "q9": {
+      "title": "How does CoinLucks ensure fairness and transparency? ",
+      "content": "CoinLucks utilizes blockchain and open-source smart contract technology to ensure that every user’s participation, each bet made, and every draw result is publicly verifiable. CoinLucks' draw system is fully decentralized, with all operations taking place on the blockchain, avoiding reliance on any centralized authority, ensuring complete transparency and fairness."
+    },
+    "q10": {
+      "title": "Does CoinLucks have a Token or Planned? ",
+      "content": "CoinLucks does not have a token. CoinLucks has not announced plans for any airdrop or token generation event. Be wary of scams claiming airdrops, giveaways, etc. Official updates and event information will be shared through CoinLucks' official website and social media channels."
+    },
+    "q11": {
+      "title": "Is my money safe? ",
+      "content": "Yes. CoinLucks non-custodial, so you're in control of your funds."
+    },
+    "q12": {
+      "title": "How can I contact support if I encounter issues?",
+      "content": "TIf you encounter any issues while using CoinLucks, please contact our customer support team through our official social media accounts. We will respond and assist you as soon as possible."
+    }
   }
 }

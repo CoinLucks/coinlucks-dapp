@@ -9,13 +9,13 @@ import Container from "@/components/Container";
 import { useRouter, usePathname } from "@/libs/i18nNavigation";
 import LogoSvg from "@/public/img/logo.svg";
 
+import AppLink from "../AppLink";
 import { BNBCoinIcon } from "../Chains";
 
 import ReferralsIntro from "./Intro";
 import Leaderboard from "./Leaderboard";
 import ReferralRecords from "./ReferralRecords";
 import ReferralStatistic from "./ReferralStatistic";
-import AppLink from "../AppLink";
 
 const ReferralsPage = () => {
   const t = useTranslations("referral");
