@@ -1,4 +1,5 @@
 import type { Locale } from "@rainbow-me/rainbowkit";
+import { Analytics } from '@vercel/analytics/next';
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, useMessages } from "next-intl";
@@ -89,6 +90,7 @@ export default function RootLayout(props: {
             {props.children}
           </Providers>
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );
