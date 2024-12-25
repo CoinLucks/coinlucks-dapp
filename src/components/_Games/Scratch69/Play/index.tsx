@@ -57,8 +57,6 @@ const Play = () => {
         <main className="flex flex-col mt-2 w-full">
           <ScratchCard />
           <BetInput
-            minBet={BigNumber(0.001)}
-            maxBet={BigNumber(1)}
             jackpot={BigNumber(formatEther(gameStats.jackpotPool ?? 0n))}
             playerStats={playerStats}
           />

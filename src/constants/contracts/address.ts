@@ -30,42 +30,6 @@ export const DeployAddress: AddressMapping = {
       staking: "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
     },
   },
-  [ChainId.ETHEREUM]: {
-    [ContractNames.RaffleContract]: {
-      address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
-    },
-    [ContractNames.Referral]: {
-      address: "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
-    },
-  },
-  [ChainId.BNB]: {
-    [ContractNames.RaffleContract]: {
-      address: "0x0165878A594ca255338adfa4d48449f69242Eb8F",
-    },
-    [ContractNames.Referral]: {
-      address: "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6",
-    },
-  },
-  [ChainId.BNB_TESTNET]: {
-    [ContractNames.RaffleContract]: {
-      address: "0xd1A0b428e8894f6Ddc98D33c75efd6b792a89844",
-    },
-    [ContractNames.Referral]: {
-      address: "0x3DF3B3F2395325020FA84b2322c59A80697769c8",
-    },
-    [ContractNames.DiceShake]: {
-      address: "0x2b8981ebDf4f476Ea4eF1084601381D25a8d7322",
-      staking: "0xB0f049f84dC6Cd409F73B1A8032FcD424B2D51a7",
-    },
-    [ContractNames.CoinFlip]: {
-      address: "0xa2FfDc31bc068e85F8862CF86316e299d1D4a721",
-      staking: "0x0E0dc0A7059bd82156b343DE9f032Ec083e93eFD",
-    },
-    [ContractNames.Scratch69]: {
-      address: "0x2463Cc71E05F65AD0e166C9d59EC5eCBEFe55F2c",
-      staking: "0x94f3aA5931ab7Be9B0630AcceCFF3D86FF708A8A",
-    },
-  },
   [ChainId.OPBNB]: {
     [ContractNames.RaffleContract]: {
       address: "0xd1A0b428e8894f6Ddc98D33c75efd6b792a89844",
@@ -88,22 +52,22 @@ export const DeployAddress: AddressMapping = {
   },
   [ChainId.OPBNB_TESTNET]: {
     [ContractNames.RaffleContract]: {
-      address: "0x6d50a93e2717B1f58886E9004941107EC658ab7D",
+      address: "0x4B6b2BCe6e7c52185d81d2b4B3e15d614228d3fC",
     },
     [ContractNames.Referral]: {
-      address: "0xAE8794fE674a8519abB023B93a836F542515a61E",
+      address: "0x5618A7AfF8175218E35eEec7a1C3E8431CABB03c",
     },
     [ContractNames.DiceShake]: {
-      address: "0x2Bff3954d1Af8020Ca73FC16dfBE12B98f5dd38C",
-      staking: "0xD4CFACBc0c5af3c1a950A0Ec496D9F76e97e03C1",
+      address: "0xc9f642B913D2772374c5b235B2Fa58d235DB8f0D",
+      staking: "0xDAAD91eeF9066e259Fa63a55463EF14Ee749386b",
     },
     [ContractNames.CoinFlip]: {
-      address: "0xc38Be75604c74214b64E6a32a8987B674E38b3B6",
-      staking: "0xf187dC4A165e2bD46D5b77C30e7f6Bd77a8bEc6a",
+      address: "0x55A5f64215868891521bFe1715D5bAC4c5c530F9",
+      staking: "0x324640a4ec6d6055fb3b5124763ad15D7618f614",
     },
     [ContractNames.Scratch69]: {
-      address: "0xA1c7eeD137BC103AfF5ff4EA3F7021542677618B",
-      staking: "0xFb4d157dC7a8484a10A65D9B29f832e2E6A91B02",
+      address: "0x4209bfe46b3118E4d8807Bd06aE918640A6cf179",
+      staking: "0x353F5B915b439FB9282422f5C23EfffF9753873d",
     },
   },
 };

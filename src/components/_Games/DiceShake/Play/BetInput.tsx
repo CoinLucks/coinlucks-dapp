@@ -19,14 +19,10 @@ import { calculateMultiplier } from "../utils";
 
 const BetInput = ({
   betOption,
-  minBet = BigNumber(0.001),
-  maxBet = BigNumber(100),
   jackpot,
   playerStats,
 }: {
   betOption: number[];
-  minBet: BigNumber;
-  maxBet: BigNumber;
   jackpot: BigNumber;
   playerStats: BetGamePlayerStats;
 }) => {
@@ -62,8 +58,8 @@ const BetInput = ({
       <div className="flex flex-col flex-shrink gap-3">
         <BetAmountInput token={token.symbol} amount={amount} setAmount={setAmount} />
         <BetAmountOptions
-          minBet={minBet}
-          maxBet={maxBet}
+          options1={[0.01, 0.02, 0.05, 0.1, 0.5, 1]}
+          options2={[2, 3, 4, 5, 7.5, 10]}
           setAmount={setAmount}
         />
         <BetAmountInfo

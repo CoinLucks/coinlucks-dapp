@@ -58,8 +58,6 @@ const Play = () => {
         <Slidebar betOption={betOption} setBetOption={setBetOption} />
         <BetInput
           betOption={betOption}
-          minBet={BigNumber(0.01)}
-          maxBet={BigNumber(10)}
           jackpot={BigNumber(formatEther(gameStats.jackpotPool ?? 0n))}
           playerStats={playerStats}
         />

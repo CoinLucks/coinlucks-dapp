@@ -60,8 +60,6 @@ const Play = () => {
         <main className="flex flex-col mt-4 w-full">
           <PlayBox betOption={betOption} setBetOption={setBetOption} />
           <BetInput
-            minBet={BigNumber(0.01)}
-            maxBet={BigNumber(10)}
             betOption={betOption}
             jackpot={BigNumber(formatEther(gameStats.jackpotPool ?? 0n))}
             playerStats={playerStats}

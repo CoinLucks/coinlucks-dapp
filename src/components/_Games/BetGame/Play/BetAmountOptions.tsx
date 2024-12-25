@@ -1,52 +1,32 @@
 import { Icon } from "@iconify/react";
 import { Button } from "@nextui-org/react";
-import BigNumber from "bignumber.js";
-import React, { useState } from "react";
+import { useState } from "react";
 
 import { ChainCoinIcon } from "@/components/Chains";
 import { useBetGameBasicContext } from "@/context/BetGameBasicContext";
 import { cn } from "@/utils/cn";
 
 const BetAmountOptions = ({
-  minBet,
-  maxBet,
+  options1,
+  options2,
   setAmount,
 }: {
-  minBet: BigNumber;
-  maxBet: BigNumber;
+  options1: number[],
+  options2?: number[],
   setAmount?: any;
 }) => {
   const { chainId } = useBetGameBasicContext();
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const priceOpts1 = [1, 5, 10, 25, 50, 100];
-  const priceOpts2 = [
-    200,
-    300,
-    400,
-    500,
-    750,
-    maxBet.dividedBy(minBet).toNumber(),
-  ];
-
-  const getPriceOpts = (opts: number[]) =>
-    opts.map((it) => ({
-      id: `p${it}`,
-      recommend: it == 20,
-      amount: minBet.multipliedBy(it),
-    }));
-
-  const isOpts2 = maxBet.dividedBy(minBet).gte(200);
-
   return (
     <div className="flex flex-wrap gap-1 items-center relative">
-      {getPriceOpts(priceOpts1).map((x: any, index: number) => (
+      {options1.map((x: number, index: number) => (
         <Button
           className={cn("w-[30%] max-md:w-[32%]", [{ hidden: isExpanded }])}
           size="md"
-          key={x.id}
+          key={`p1${index}`}
           onClick={() => {
-            setAmount(`${x.amount}`);
+            setAmount(`${x}`);
           }}
           startContent={
             <ChainCoinIcon
@@ -55,17 +35,17 @@ const BetAmountOptions = ({
             />
           }
         >
-          {x.amount.toString()}
+          {x.toString()}
         </Button>
       ))}
-      {isOpts2 &&
-        getPriceOpts(priceOpts2).map((x: any, index: number) => (
+      {options2 &&
+        options2.map((x: number, index: number) => (
           <Button
             className={cn("w-[30%] max-md:w-[32%]", [{ hidden: !isExpanded }])}
             size="md"
-            key={x.id}
+            key={`p2${index}`}
             onClick={() => {
-              setAmount(`${x.amount}`);
+              setAmount(`${x}`);
             }}
             startContent={
               <ChainCoinIcon
@@ -74,7 +54,7 @@ const BetAmountOptions = ({
               />
             }
           >
-            {x.amount.toString()}
+            {x.toString()}
           </Button>
         ))}
       <Button
@@ -96,7 +76,7 @@ const BetAmountOptions = ({
         variant="light"
         isIconOnly={true}
         className={cn("absolute right-3 max-md:right-[-12px] z-10", [
-          { hidden: isExpanded || !isOpts2},
+          { hidden: isExpanded || !options2 },
         ])}
         onClick={() => setIsExpanded(!isExpanded)}
       >
