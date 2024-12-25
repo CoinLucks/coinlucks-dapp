@@ -39,7 +39,7 @@ const LeaderboardItem = ({
           <div className="text-xs text-foreground">
             <UserLink
               className="justify-start min-h-[48px]"
-              textWrapperClassName="flex flex-col"
+              textWrapperClassName="flex flex-col text-sm justify-center"
               textClassName="ml-1 whitespace-nowrap text-ellipsis text-sm overflow-hidden max-w-32"
               id={item.player?.id}
               name={item.player?.name || getShortAddress(item.player?.id)}

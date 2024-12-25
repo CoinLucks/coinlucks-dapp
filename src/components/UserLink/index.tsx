@@ -44,7 +44,7 @@ const UserLink = ({
     <AppLink href={url}>
       {avatarHolder ? (
         <Icon
-          className="text-foreground-800"
+          className="text-white from-purple-700 to-blue-600 bg-gradient-to-b rounded-full opacity-70"
           width={size?.width || 48}
           icon="carbon:user-avatar"
         ></Icon>

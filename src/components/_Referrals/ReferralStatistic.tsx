@@ -1,6 +1,6 @@
 "use client";
 
-import { Divider } from "@nextui-org/react";
+import { Chip, Divider } from "@nextui-org/react";
 import { isEmpty } from "lodash";
 import { useTranslations } from "next-intl";
 import { formatEther } from "viem";
@@ -43,20 +43,24 @@ const ReferralStatistic = () => {
           {!isLoadingIncome &&
             incomes?.length > 0 ?
             incomes.map((x: UserReferrerIncome, index: number) => (
-              <div key={index} className="flex flex-col gap-2 py-4 px-2 rounded-2xl items-center text-center text-nowrap">
+              <div key={index} className="flex flex-col gap-2 py-0 px-2 rounded-2xl items-center text-center text-nowrap">
                 <CryptoCurrency
-                  className={"text-primary text-h6 font-semibold"}
+                  className={"font-semibold"}
                   token={Native.onChain(x.chainId).symbol}
                   value={formatEther(x.amount)}
                   display="Crypto"
                   showIcon={true}
                   showSuffix={true}
                 />
-                <CryptoCurrency
-                  token={Native.onChain(x.chainId).symbol}
-                  value={formatEther(x.amount)}
-                  display="USD"
-                />
+                <Chip 
+                  variant="flat"
+                  color="success">
+                  <CryptoCurrency
+                    token={Native.onChain(x.chainId).symbol}
+                    value={formatEther(x.amount)}
+                    display="USD"
+                  />
+                </Chip>
               </div>
             )) : <span className="font-semibold">$0</span>}
           <span className="pl-4 text-pm">{t("lifetime_rewards")}</span>

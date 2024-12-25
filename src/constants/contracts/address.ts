@@ -12,22 +12,22 @@ type AddressMapping = {
 export const DeployAddress: AddressMapping = {
   [ChainId.LOCALHOST]: {
     [ContractNames.RaffleContract]: {
-      address: "0x322813Fd9A801c5507c9de605d63CEA4f2CE6c44",
+      address: "0x5c74c94173F05dA1720953407cbb920F3DF9f887",
     },
     [ContractNames.Referral]: {
-      address: "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
+      address: "0x0355B7B8cb128fA5692729Ab3AAa199C1753f726",
     },
     [ContractNames.DiceShake]: {
-      address: "0x8A791620dd6260079BF849Dc5567aDC3F2FdC318",
-      staking: "0xB7f8BC63BbcaD18155201308C8f3540b07f84F5e",
+      address: "0x8198f5d8F8CfFE8f9C413d98a0A55aEB8ab9FbB7",
+      staking: "0xf4B146FbA71F41E0592668ffbF264F1D186b2Ca8",
     },
     [ContractNames.CoinFlip]: {
-      address: "0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512",
-      staking: "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9",
+      address: "0x2B0d36FACD61B71CC05ab8F3D2355ec3631C0dd5",
+      staking: "0x46b142DD1E924FAb83eCc3c08e4D46E82f005e0E",
     },
     [ContractNames.Scratch69]: {
-      address: "0x959922bE3CAee4b8Cd9a407cc3ac1C251C2007B1",
-      staking: "0x68B1D87F95878fE05B998F19b66F4baba5De1aed",
+      address: "0x7A9Ec1d04904907De0ED7b6839CcdD59c3716AC9",
+      staking: "0x4631BCAbD6dF18D94796344963cB60d44a4136b6",
     },
   },
   [ChainId.OPBNB]: {

@@ -63,14 +63,9 @@ const ReferreeRecord = () => {
                 )}
               >
                 <div className="flex w-full items-center justify-between">
-                  <Chip className="justify-start mr-2">
-                    {x.referrer.id == address?.toLocaleLowerCase()
-                      ? "Tier1"
-                      : "Tier2"}
-                  </Chip>
                   <UserLink
                     className="justify-start min-h-[48px]"
-                    textWrapperClassName="flex flex-col"
+                    textWrapperClassName="flex flex-col text-sm justify-center"
                     textClassName="whitespace-nowrap text-ellipsis overflow-hidden max-w-32"
                     id={x.user?.id}
                     name={x.user?.name || getShortAddress(x.user?.id)}
@@ -79,7 +74,12 @@ const ReferreeRecord = () => {
                     showIcon={true}
                     showName={true}
                     size={{ width: 32, height: 32 }}
-                  ></UserLink>
+                  />
+                  <Chip size="sm" className="justify-starr">
+                    {x.referrer.id == address?.toLocaleLowerCase()
+                      ? "T1"
+                      : "T2"}
+                  </Chip>
                   <div className="flex flex-row items-end gap-1">
                     <CountDown eventTime={x.createdAt} showOutdate={true} />
                   </div>

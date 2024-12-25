@@ -14,7 +14,7 @@ export const WalletAvatar: AvatarComponent = ({ address, ensImage, size }) => {
     : "";
   const icon = avatarHolder ? (
     <Icon
-      className="text-foreground-800"
+      className="text-white from-purple-700 to-blue-600 bg-gradient-to-b rounded-full opacity-70"
       height={size || 48}
       width={size || 48}
       icon="carbon:user-avatar"

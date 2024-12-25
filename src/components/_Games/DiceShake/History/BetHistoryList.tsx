@@ -111,7 +111,7 @@ const BetHistoryList = ({
                 <div className="basis-1/5 flex flex-grow">
                   <UserLink
                     className="justify-start min-h-[48px]"
-                    textWrapperClassName="flex flex-col"
+                    textWrapperClassName="flex flex-col text-sm justify-center"
                     textClassName="whitespace-nowrap text-ellipsis overflow-hidden max-w-32"
                     id={x.player?.id}
                     name={x.player?.name || getShortAddress(x.player?.id)}

@@ -19,7 +19,7 @@ const Avatar = ({
     : "";
   return isEmpty(src) ? (
     <Icon
-      className={cn("text-foreground-800", className)}
+      className={cn("text-white from-purple-700 to-blue-600 bg-gradient-to-b rounded-full opacity-70", className)}
       width={size?.width || 48}
       icon="carbon:user-avatar"
     ></Icon>
