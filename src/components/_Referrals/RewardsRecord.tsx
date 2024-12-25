@@ -7,6 +7,8 @@ import { useTranslations } from "next-intl";
 import { formatEther } from "viem";
 import { useAccount } from "wagmi";
 
+import { AppConfig } from "@/config";
+import { AmountSwitcher, useAmountDisplay } from "@/context/AmountDisplayContext";
 import { useWindowSize } from "@/hooks";
 import {
   useReferrerPaidsQuery
@@ -25,8 +27,6 @@ import LoadMore from "../LoadMore";
 import UserLink from "../UserLink";
 
 import { SkeletonReferreeItems } from "./loading";
-import { AmountSwitcher, useAmountDisplay } from "@/context/AmountDisplayContext";
-import { AppConfig } from "@/config";
 
 const RewardsRecord = () => {
   const t = useTranslations("referral");
