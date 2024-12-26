@@ -9,6 +9,8 @@ export type UserReferral = {
 };
 
 export type UserReferreeCount = {
+  tier1: number;
+  tier2: number;
   firstLevelCount: number;
   secondLevelCount: number;
 };

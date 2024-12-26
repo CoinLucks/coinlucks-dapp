@@ -35,7 +35,7 @@ const ReferralStatistic = () => {
     .flatMap((it: any) => it.data)
     .filter((it: any) => !isEmpty(it));
 
-  const referredCount = `${(info?.firstLevelCount ?? 0)} / ${(info?.secondLevelCount ?? 0)}`
+  const referredCount = `${(info?.tier1 ?? 0) + (info?.tier2 ?? 0)} / ${(info?.firstLevelCount ?? 0) + (info?.secondLevelCount ?? 0)}`
   return (
     <div className="flex flex-col gap-2 items-start max-md:items-center justify-center p-3 mt-4 h-full rounded-xl bg-background-700 max-md:px-5 max-md:max-w-full text-sm overflow-x-scroll scrollbar-hide">
       <div className="flex flex-row items-center justify-center text-center gap-3">
