@@ -16,7 +16,7 @@ const socialMedia = [
   },
   {
     SocialIcon: <Icon icon="ic:round-alternate-email" width={28} />,
-    url: "mailto:coinlucks@gmail.com",
+    url: "mailto:team@coinlucks.com",
   },
 ];
 

@@ -33,6 +33,8 @@ const ReferreeRecord = () => {
     queryError,
   } = useReferreesQuery({
     id: address,
+    orderBy: "createdAt",
+    orderDirection: "desc"
   });
 
   const items = data?.pages

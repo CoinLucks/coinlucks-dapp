@@ -23,9 +23,9 @@ export default function FAQs() {
                     keepContentMounted
                     itemClasses={{
                         base: "px-0 md:px-2 md:px-6",
-                        title: "font-medium",
+                        title: "font-medium text-foreground-800",
                         trigger: "py-6 flex-row-reverse",
-                        content: "pt-0 pb-6 text-base text-default-500",
+                        content: "pt-0 pb-6 text-base text-foreground-500",
                         indicator: "rotate-0 data-[open=true]:-rotate-45",
                     }}
                     items={faqs}
@@ -34,7 +34,7 @@ export default function FAQs() {
                     {faqs.map((item, i) => (
                         <AccordionItem
                             key={i}
-                            indicator={<Icon className="text-secondary" icon="lucide:plus" width={24} />}
+                            indicator={<Icon icon="lucide:plus" width={24} />}
                             title={item.title}
                         >
                             {item.content}

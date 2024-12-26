@@ -53,14 +53,14 @@ const Navbar = () => {
       {props.icon && (
         <Icon
           className={cn("text-foreground-800", {
-            "text-blue-700": props.active,
+            "text-blue-600": props.active,
           })}
           icon={props.icon}
           width={24}
           height={24}
         />
       )}
-      <span className={cn("mt-1", { "text-blue-700": props.active })}>
+      <span className={cn("mt-1", { "text-blue-600": props.active })}>
         {t(props.title)}
       </span>
     </button>

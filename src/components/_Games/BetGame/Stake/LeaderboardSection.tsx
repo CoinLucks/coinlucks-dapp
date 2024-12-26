@@ -45,7 +45,7 @@ const LeaderboardSection = () => {
 
   return (
     <section className="flex flex-col mt-6 w-full bg-background-700 rounded-lg">
-      <header className="flex gap-10 items-center pr-6 pl-16 w-full text-xs leading-none text-foreground-800 whitespace-nowrap max-md:px-5">
+      <header className="flex gap-10 items-center pr-6 pl-16 w-full text-xs leading-none text-foreground-800 whitespace-nowrap max-md:px-4">
         <div className="flex-1 shrink self-stretch my-auto basis-0">
           {t("list.title_player")}/{t("list.title_stake")}
         </div>

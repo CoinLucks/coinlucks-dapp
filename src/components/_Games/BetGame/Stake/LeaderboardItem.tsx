@@ -28,10 +28,10 @@ const LeaderboardItem = ({
   );
 
   return (
-    <div className="flex gap-6 items-center px-6 py-1 mt-2 w-full rounded-xl max-md:px-5 border border-divider">
+    <div className="flex gap-6 items-center px-4 py-1 mt-2 w-full rounded-xl border border-divider">
       <div className="flex flex-1 shrink gap-2 items-center self-stretch my-auto basis-0">
-        <div className="flex overflow-hidden flex-col self-stretch my-auto w-10">
-          <div className="flex justify-center items-center text-xl font-bold leading-6 text-foreground-700">
+        <div className="flex overflow-hidden flex-col self-stretch my-auto max-w-10">
+          <div className="flex justify-center items-center text-lg font-bold leading-6 text-foreground-700">
             {rank}
           </div>
         </div>
