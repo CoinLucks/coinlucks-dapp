@@ -25,7 +25,7 @@ function useBetStakingPool(chainId: number, gameName?: ContractNames) {
       {
         abi: abi,
         address: contractInfo?.address as Address,
-        functionName: "getAPY",
+        functionName: "getAPR",
         args: [],
       },
     ],

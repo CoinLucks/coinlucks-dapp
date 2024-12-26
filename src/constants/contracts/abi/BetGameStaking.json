@@ -533,7 +533,7 @@
   },
   {
     "inputs": [],
-    "name": "getAPY",
+    "name": "getAPR",
     "outputs": [
       {
         "internalType": "uint256",

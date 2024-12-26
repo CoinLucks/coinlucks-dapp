@@ -2,13 +2,12 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import { Modal, ModalContent, ModalBody, useDisclosure, Button, Divider, Input, Slider } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
 import { useEffect, useState } from "react";
-import { formatEther, formatUnits, parseEther } from "viem";
+import { formatEther, formatUnits } from "viem";
 
 import { ChainCoinIcon } from "@/components/Chains";
 import CryptoCurrency from "@/components/CryptoCurrency";
 import { useBetGameBasicContext } from "@/context/BetGameBasicContext";
 import useBetStakingPool from "@/hooks/game/useBetStakingPool";
-import { useCheckAndSwitchNetwork } from "@/hooks/useCheckAndSwitchNetwork";
 import { useGetNativeTokenBalance } from "@/hooks/useTokenBalance";
 import { Native } from "@/types/token";
 
